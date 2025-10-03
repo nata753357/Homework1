@@ -23,21 +23,30 @@ body {
 }
 
 .top__content{
+    max-width: 769px;
     display: grid;
-    gap: 24px;
+    gap: 48px;
 }
 
 .title{
-    font-weight: 700;
+    margin-top: 196px;
     font-size: 64px;
     line-height: 100%;
-    max-width: 769px;
+    height: 156px;
 }
 
 .top__text{
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
+    width: 720px;
+    height: 64px;
+}
+
+.btn{
+    width: 247px;
+    height: 66px;
+    border: 1px solid #202027
 }
 
 .top2{
@@ -48,17 +57,26 @@ body {
     background-size: cover;
 }
 
+.top2__content{
+    max-width: 788px;
+    display: grid;
+    gap: 24px;
+    
+}
+
 .title2{
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     color: #FFFFFF;
+    
 }
 
-.top__content2_text{
-    font-family: "Montserrat", serif;
+.top2__content_text{
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+   
+
 }
