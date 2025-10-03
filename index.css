@@ -33,6 +33,7 @@ body {
     font-size: 64px;
     line-height: 100%;
     height: 156px;
+    
 }
 
 .top__text{
@@ -46,7 +47,14 @@ body {
 .btn{
     width: 247px;
     height: 66px;
-    border: 1px solid #202027
+    border: 1px solid #202027;
+    border-radius: 60px;
+    background: rgba(32, 32, 39, 1);
+
+}
+
+.btn__text_2{
+    background: rgba(255, 255, 255, 1);
 }
 
 .top2{
