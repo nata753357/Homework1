@@ -101,6 +101,13 @@ body {
     row-gap: 32px;
 }
 
+.top2-box__card{
+   height: 473px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 .top2-box__img{
     border-radius: 30px;
 
