@@ -100,9 +100,8 @@ body {
 }
 
 .top2-box__info{
-    opacity: 1;
     border-radius: 30px;
-
+    
 }
 .top2-box__title{
     background: rgba(247, 247, 247, 1);
