@@ -94,5 +94,24 @@ body {
     height: 96px;
 }
 
+.box__img{
+    border-radius: 30px;
+
+}
+
+.box__info{
+    opacity: 1;
+    border-radius: 30px;
+
+}
+.box__title{
+    background: rgba(247, 247, 247, 1);
+}
+
+.box__description{
+    background: rgba(247, 247, 247, 1);
+
+}
+
     
 
