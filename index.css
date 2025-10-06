@@ -162,13 +162,15 @@ body {
 
 .top2-box__card3{
     height: 551px;
+    width: 378px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
 .top2-box__description_2{
-    height: 1056px;   
+    
+
 
 }
 
