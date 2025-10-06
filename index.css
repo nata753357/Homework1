@@ -52,12 +52,13 @@ body {
 }
 
 .btn:hover{
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .btn__text{
-    background: rgba(255, 255, 255, 1);
+    background: rgba(32, 32, 39, 1);
+    color: rgba(255, 255, 255, 1);
 ;
 }
 
