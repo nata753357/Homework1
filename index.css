@@ -188,3 +188,14 @@ body {
     display: grid;
 
 }
+
+.title3 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
