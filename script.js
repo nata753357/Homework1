@@ -34,6 +34,10 @@ alert (5);
 //let result = 2 ** 5;
 alert (32);
 
+// Задание 6
+//let a = 9;
+//let b = 2;
+alert (1);
 
 
 
