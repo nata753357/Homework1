@@ -17,6 +17,18 @@ alert (a);
 // Задание 4
 //let a = 10;
 //let a = 2;
+
 //let sum = 10 + 2;
 alert (12);
+
+//let difference = 10 - 2;
+alert (8);
+
+//let product = 10 * 2;
+alert (20);
+
+//let quotient = 10 / 2;
+alert (5);
+
+
 
