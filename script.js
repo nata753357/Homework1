@@ -30,5 +30,11 @@ alert (20);
 //let quotient = 10 / 2;
 alert (5);
 
+// Задание 5
+//let result = 2 ** 5;
+alert (32);
+
+
+
 
 
