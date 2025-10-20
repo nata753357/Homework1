@@ -39,6 +39,15 @@ alert (32);
 //let b = 2;
 alert (1);
 
+// Задание 7
+let num = 1;
+alert(num += 5);
+alert(num -= 3);
+alert(num *= 7);
+alert(num /= 3);
+alert(num += 1);
+alert(num -= 1);
+
 
 
 
