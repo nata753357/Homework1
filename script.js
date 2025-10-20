@@ -1,5 +1,5 @@
 confirm ("Согласен создать confirm");
-prompt ("Сколько вам лет?");
+
 
 // Задание 1
 // let a = 10;
@@ -48,6 +48,9 @@ alert(num /= 3);
 alert(num += 1);
 alert(num -= 1);
 
+// Задание 8
+//let age = Number (prompt ("Сколько вам лет?"));
+alert (36);
 
 
 
