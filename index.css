@@ -199,3 +199,21 @@ body {
 
 }
 
+.top4 {
+    height: 150px;
+    background-image: url(img/top4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title4 {
+    margin-top: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+
+}
