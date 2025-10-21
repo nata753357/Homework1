@@ -59,3 +59,4 @@ const user = {
     isAdmin: true,
 }
 
+// Задание 10
