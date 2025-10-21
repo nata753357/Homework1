@@ -52,5 +52,9 @@ alert(num -= 1);
 //let age = Number (prompt ("Сколько вам лет?"));
 alert (36);
 
-
-
+// Задание 9
+const user {
+    name: Maria;
+    age: 35;
+    isAdmin: false;
+}
