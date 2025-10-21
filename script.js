@@ -53,8 +53,9 @@ alert(num -= 1);
 alert (36);
 
 // Задание 9
-const user {
-    name: Maria;
-    age: 35;
-    isAdmin: false;
+const user = {
+    name: Natalya,
+    age: 36,
+    isAdmin: true,
 }
+
