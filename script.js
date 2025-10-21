@@ -57,5 +57,5 @@ const user = {
 }
 
 // Задание 10
-//let + name = prompt ("Введите ваше имя");
-alert(Наталья);
+const userName = prompt('Как вас зовут?');
+alert(`Привет, ${userName}`);
