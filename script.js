@@ -57,5 +57,5 @@ const user = {
 }
 
 // Задание 10
-//let + name = prompt ("Как вас зовут");
+//let + name = prompt ("Введите ваше имя");
 alert(Наталья);
