@@ -70,5 +70,5 @@ const user = {
 
 // Задание 10
 
-//const userName = prompt('Как вас зовут?');
+//let userName = prompt('Как вас зовут?');
 //alert(`Привет, ${userName}`);
