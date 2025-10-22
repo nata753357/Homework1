@@ -73,9 +73,25 @@ body {
   top: 69px;
   left: 156px;
   border-width: 1px;
+}
+
+.bigstar2 {
+  position: absolute;
+  opacity: 1;
+  top: 568px;
+  left: 1013px;
+  border-width: 1px;
 
 }
 
+.littlestar2 {
+  position: absolute;
+  opacity: 1;
+  top: 538px;
+  left: 948px;
+  border-width: 1px;
+
+}
 
 .top2 {
   height: 1470px;
