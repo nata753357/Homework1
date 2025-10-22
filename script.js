@@ -1,13 +1,17 @@
 // Задание 1
-// let a = 10;
-// let a = 20;
+
+let a = 10;
+alert (a);
+a = 20;
 alert (a);
 
 // Задание 2
-// let a = 2007;
+
+let a = 2007;
 alert (a);
 
 // Задание 3
+
 // let a = Брэндан Эйх;
 alert (a);
 
@@ -28,15 +32,19 @@ alert (20);
 alert (5);
 
 // Задание 5
+
 //let result = 2 ** 5;
 alert (32);
 
 // Задание 6
+
 //let a = 9;
 //let b = 2;
 alert (1);
 
 // Задание 7
+
+
 let num = 1;
 alert(num += 5);
 alert(num -= 3);
@@ -46,10 +54,12 @@ alert(num += 1);
 alert(num -= 1);
 
 // Задание 8
+
 //let age = Number (prompt ("Сколько вам лет?"));
 alert (36);
 
 // Задание 9
+
 const user = {
     name: Natalya,
     age: 36,
@@ -57,5 +67,6 @@ const user = {
 }
 
 // Задание 10
+
 const userName = prompt('Как вас зовут?');
 alert(`Привет, ${userName}`);
