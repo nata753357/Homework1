@@ -93,14 +93,11 @@ body {
 }
 
 .star2 {
-  height: 792px;
-  background-image: url(img/rightstar1.png);
-  background-repeat: no-repeat;
-  background-position: right;
-}
+  position: absolute;
+  top: -4px;
+  left: 935px;
+  border-width: 1px;
 
-.overflow-hidden {
-  overflow-x: hidden;  
 }
 
 .top2 {
