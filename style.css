@@ -44,16 +44,12 @@ body {
   height: 34px;
   border: 1px solid #202027;
   border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
 }
-
 .top-btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
-
-.top-btn {
-  background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
 }
 
 .bigstar {
@@ -106,14 +102,6 @@ body {
   max-width: 1201px;
   display: grid;
 }
-.top2__content_text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFFFFF;
-  width: 788px;
-  margin-bottom: 72px;
-}
 .top2__title {
   margin-top: 100px;
   font-weight: 700;
@@ -121,6 +109,14 @@ body {
   line-height: 100%;
   color: #FFFFFF;
   margin-bottom: 24px;
+}
+.top2__content_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 788px;
+  margin-bottom: 72px;
 }
 
 .top2-box__content {
@@ -130,19 +126,16 @@ body {
   column-gap: 32px;
   row-gap: 32px;
 }
-
-.top2-box__card {
+.top2-box__content__card {
   height: 473px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__img {
+.top2-box__content__img {
   border-radius: 30px;
 }
-
-.top2-box__info {
+.top2-box__content__info {
   background: #FFFFFF;
   height: 159px;
   display: flex;
@@ -156,8 +149,7 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-
-.top2-box__title {
+.top2-box__content__title {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
@@ -172,35 +164,30 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.top2-box__description {
+.top2-box__content__description {
   font-family: Montserrat;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: 0px;
 }
-
-.top2-box__card2 {
+.top2-box__content__card2 {
   height: 512px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__card3 {
+.top2-box__content__card3 {
   height: 551px;
   width: 378px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__description_2 {
+.top2-box__content__description_2 {
   max-width: 78px;
 }
-
-.top2-box__description_3 {
+.top2-box__content__description_3 {
   max-width: 117px;
 }
 
