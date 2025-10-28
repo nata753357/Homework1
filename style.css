@@ -200,10 +200,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-.top3__content {
-  max-width: 1200px;
-  display: grid;
-}
 
 .title3 {
   margin-top: 50px;
@@ -217,12 +213,9 @@ body {
 .top3-box__content {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-  row-gap: 32px;
+  gap: 32px;
 }
-.top3-box__content__card {
+.top3-box__content__card4 {
   height: 500px;
   display: flex;
   position: relative;
@@ -244,7 +237,19 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
 }
-.top3-box__content__card2 {
+.top3-box__content__btn {
+  width: 117px;
+  height: 34px;
+  border: 1px solid #202027;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+}
+.top3-box__content:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.top3-box__content__card5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -218,13 +218,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-    &__content {
-      max-width: 1200px;
-      display: grid;
-    }
 }
-
+ 
  .title3 {
       margin-top: 50px;
       font-weight: 700;
@@ -235,13 +230,11 @@ body {
     }
 
 .top3-box__content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 32px;
-  row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 
-    &__card {
+    &__card4 {
       height: 500px;
       display: flex;
       position: relative;
@@ -274,10 +267,20 @@ body {
     }
 
     &__btn {
-
+      width: 117px;
+      height: 34px;
+      border: 1px solid #202027;
+      border-radius: 60px;
+      background: rgba(32, 32, 39, 1);
+      color: rgba(255, 255, 255, 1);
     }
 
-    &__card2 {
+    &:hover {
+      background: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      }
+
+    &__card5 {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
