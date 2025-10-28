@@ -251,23 +251,33 @@ body {
       flex-direction: row-reverse;
 }
 
-    &__img{
+    &__img {
       border-radius: 30px;
     }
 
     &__info {
-      background: #FFFFFF;
-      height: 159px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      justify-content: center;
-      padding-left: 32px;
-      padding-right: 32px;
-      padding-top: 32px;
-      padding-bottom: 36px;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
+      
+    }
+
+    &__title {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 100%;
+      letter-spacing: 0px;
+     
+    }
+
+    &__description {
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0px;
+
+    }
+
+    &__btn {
+
     }
 
     &__card2 {
