@@ -138,77 +138,77 @@ body {
   row-gap: 32px;
 
 
-&__card {
-  height: 473px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+    &__card {
+      height: 473px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
 }
 
-&__img {
-  border-radius: 30px;
+    &__img {
+      border-radius: 30px;
 }
 
-&__info {
-  background: #FFFFFF;
-  height: 159px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 32px;
-  padding-bottom: 36px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+    &__info {
+      background: #FFFFFF;
+      height: 159px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+      padding-bottom: 36px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
 }
 
-&__title {
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 110%;
-  letter-spacing: 0px;
-  vertical-align: bottom;
-  border-radius: 52.58px;
-  background: rgba(247, 247, 247, 1);
-  width: 107px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    &__title {
+      font-weight: 500;
+      font-family: Montserrat;
+      font-size: 16px;
+      line-height: 110%;
+      letter-spacing: 0px;
+      vertical-align: bottom;
+      border-radius: 52.58px;
+      background: rgba(247, 247, 247, 1);
+      width: 107px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
 }
 
-&__description {
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: 0px;
+    &__description {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 100%;
+      letter-spacing: 0px;
 }
 
-&__card2 {
-  height: 512px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+    &__card2 {
+      height: 512px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
 }
 
-&__card3 {
-  height: 551px;
-  width: 378px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+    &__card3 {
+      height: 551px;
+      width: 378px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
 }
 
-&__description_2 {
-  max-width: 78px;
+    &__description_2 {
+      max-width: 78px;
 }
 
-&__description_3 {
-  max-width: 117px;
+    &__description_3 {
+      max-width: 117px;
 }
 }
 
@@ -224,8 +224,6 @@ body {
       display: grid;
     }
 }
-
-
 
  .title3 {
       margin-top: 50px;
