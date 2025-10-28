@@ -236,6 +236,19 @@ body {
       margin-bottom: 60px;
     }
 
+.top3-box__card {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 500px;
+}
+
+.top3-box__card2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
 .top4 {
   height: 150px;
   background-image: url(img/top4.jpg);
