@@ -245,10 +245,30 @@ body {
 
 
     &__card {
-      display: flex;
-      flex-direction: row-reverse;
       height: 500px;
+      display: flex;
+      position: relative;
+      flex-direction: row-reverse;
 }
+
+    &__img{
+      border-radius: 30px;
+    }
+
+    &__info {
+      background: #FFFFFF;
+      height: 159px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+      padding-bottom: 36px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
 
     &__card2 {
       display: flex;

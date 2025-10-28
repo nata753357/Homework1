@@ -223,9 +223,27 @@ body {
   row-gap: 32px;
 }
 .top3-box__container__card {
-  display: flex;
-  flex-direction: row-reverse;
   height: 500px;
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.top3-box__container__img {
+  border-radius: 30px;
+}
+.top3-box__container__info {
+  background: #FFFFFF;
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 36px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .top3-box__container__card2 {
   display: flex;
