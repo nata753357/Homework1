@@ -214,13 +214,20 @@ body {
   margin-bottom: 60px;
 }
 
-.top3-box__card {
+.top3-box__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 32px;
+}
+.top3-box__container__card {
   display: flex;
   flex-direction: row-reverse;
   height: 500px;
 }
-
-.top3-box__card2 {
+.top3-box__container__card2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

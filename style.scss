@@ -236,17 +236,29 @@ body {
       margin-bottom: 60px;
     }
 
-.top3-box__card {
+.top3-box__container {
   display: flex;
-  flex-direction: row-reverse;
-  height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 32px;
+
+
+    &__card {
+      display: flex;
+      flex-direction: row-reverse;
+      height: 500px;
 }
 
-.top3-box__card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 500px;
+    &__card2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 500px;
+}
+
+
+
 }
 
 .top4 {
