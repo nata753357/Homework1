@@ -152,8 +152,8 @@ body {
   border-bottom-right-radius: 30px;
 }
 .top2-box__content__title {
-  font-family: Montserrat;
   font-weight: 500;
+  font-family: Montserrat;
   font-size: 16px;
   line-height: 110%;
   letter-spacing: 0px;
@@ -214,7 +214,7 @@ body {
   margin-bottom: 60px;
 }
 
-.top3-box__container {
+.top3-box__content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -222,29 +222,29 @@ body {
        column-gap: 32px;
   row-gap: 32px;
 }
-.top3-box__container__card {
+.top3-box__content__card {
   height: 500px;
   display: flex;
   position: relative;
   flex-direction: row-reverse;
 }
-.top3-box__container__img {
+.top3-box__content__img {
   border-radius: 30px;
 }
-.top3-box__container__title {
+.top3-box__content__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
   letter-spacing: 0px;
 }
-.top3-box__container__description {
+.top3-box__content__description {
   font-weight: 400;
   font-style: Regular;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0px;
 }
-.top3-box__container__card2 {
+.top3-box__content__card2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

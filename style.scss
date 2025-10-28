@@ -234,13 +234,12 @@ body {
       margin-bottom: 60px;
     }
 
-.top3-box__container {
+.top3-box__content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   column-gap: 32px;
   row-gap: 32px;
-
 
     &__card {
       height: 500px;
