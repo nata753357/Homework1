@@ -181,7 +181,6 @@ body {
 }
 
     &__description {
-      font-family: Montserrat;
       font-weight: 700;
       font-size: 32px;
       line-height: 100%;
@@ -246,7 +245,19 @@ body {
     }
 
     &__info {
-      
+      background: #FFFFFF;
+      height: 159px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+      padding-bottom: 36px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    
     }
 
     &__title {

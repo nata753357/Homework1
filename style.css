@@ -167,7 +167,6 @@ body {
   justify-content: space-evenly;
 }
 .top2-box__content__description {
-  font-family: Montserrat;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -223,6 +222,20 @@ body {
 }
 .top3-box__content__img {
   border-radius: 30px;
+}
+.top3-box__content__info {
+  background: #FFFFFF;
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 36px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .top3-box__content__title {
   font-weight: 700;
