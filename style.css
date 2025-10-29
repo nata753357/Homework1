@@ -22,8 +22,9 @@ body {
   background-size: cover;
 }
 .top__content {
-  max-width: 756px;
   display: grid;
+  width: 769px;
+  gap: 24px;
 }
 .top__title {
   margin-top: 196px;
