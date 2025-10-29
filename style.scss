@@ -235,10 +235,11 @@ body {
   justify-content: space-between;
 
   &__card4 {
-    height: 500px;
     display: flex;
-    flex-direction: column;
-    position: relative;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 48px;
   }
 
   &__img {

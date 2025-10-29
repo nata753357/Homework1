@@ -214,10 +214,12 @@ body {
   justify-content: space-between;
 }
 .top3-box__content__card4 {
-  height: 500px;
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
 }
 .top3-box__content__img {
   border-radius: 30px;
