@@ -24,7 +24,6 @@ body {
 .top__content {
   max-width: 756px;
   display: grid;
-  gap: 48px;
 }
 .top__title {
   margin-top: 196px;
@@ -109,15 +108,16 @@ body {
   width: 788px;
   margin-bottom: 72px;
 }
-
-.title2 {
+.top2__title2_text {
+  margin-top: 94px;
+  margin-bottom: 24px;
+  color: rgb(255, 255, 255);
   font-family: Montserrat;
-  font-weight: 700;
   font-size: 64px;
+  font-weight: 700;
   line-height: 100%;
   letter-spacing: 0px;
-  vertical-align: middle;
-  color: rgb(255, 255, 255);
+  text-align: left;
 }
 
 .top2-box__content {
