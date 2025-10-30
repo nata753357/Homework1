@@ -111,16 +111,7 @@ body {
     display: grid;
   }
 
-  &__content_text {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    width: 788px;
-    margin-bottom: 72px;
-  }
-
-  &__title2_text {
+  &__title_text {
     margin-top: 94px;
     margin-bottom: 24px;
     color: rgba(255, 255, 255, 1);
@@ -131,6 +122,17 @@ body {
     letter-spacing: 0px;
     text-align: left;
   }
+
+  &__content_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 788px;
+    margin-bottom: 72px;
+  }
+
+
 }
 
 .top2-box__content {

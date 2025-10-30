@@ -101,15 +101,7 @@ body {
   max-width: 1201px;
   display: grid;
 }
-.top2__content_text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFFFFF;
-  width: 788px;
-  margin-bottom: 72px;
-}
-.top2__title2_text {
+.top2__title_text {
   margin-top: 94px;
   margin-bottom: 24px;
   color: rgb(255, 255, 255);
@@ -119,6 +111,14 @@ body {
   line-height: 100%;
   letter-spacing: 0px;
   text-align: left;
+}
+.top2__content_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 788px;
+  margin-bottom: 72px;
 }
 
 .top2-box__content {
