@@ -112,15 +112,12 @@ body {
   }
 
   &__title {
-    padding-top: 94px;
-    padding-bottom: 24px;
-    color: rgba(255, 255, 255, 1);
-    font-family: Montserrat;
-    font-size: 64px;
+    margin-top: 94px;
     font-weight: 700;
+    font-size: 64px;
     line-height: 100%;
-    letter-spacing: 0px;
-    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 24px;
   }
 
   &__content_text {
@@ -221,15 +218,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.top3__title3 {
-  margin-top: 50px;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 100%;
-  color: #FFFFFF;
-  margin-bottom: 60px;
+
+  &__title {
+    margin-top: 46px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 72px;
+  }
 }
 
 .top3-box__content {

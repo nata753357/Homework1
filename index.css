@@ -113,8 +113,8 @@ body {
   display: grid;
 }
 
-.title2 {
-  margin-top: 100px;
+.top2__title {
+  margin-top: 94px;
   font-weight: 700;
   font-size: 64px;
   line-height: 100%;
@@ -225,13 +225,13 @@ body {
   display: grid;
 }
 
-.title3 {
-  margin-top: 50px;
+.top3__title {
+  margin-top: 46px;
   font-weight: 700;
   font-size: 64px;
   line-height: 100%;
   color: #FFFFFF;
-  margin-bottom: 60px;
+  margin-bottom: 72px;
 }
 
 .top4 {
