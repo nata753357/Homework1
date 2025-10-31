@@ -27,6 +27,7 @@ body {
   gap: 48px;
 }
 .top__title {
+  color: rgb(32, 32, 39);
   margin-top: 196px;
   font-size: 64px;
   line-height: 100%;
