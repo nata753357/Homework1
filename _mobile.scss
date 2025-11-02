@@ -8,8 +8,11 @@
         height: 700px;
     }
 
+
+
     .top__content {
         max-width: 343px;
+        height: 371px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -29,13 +32,13 @@
     }
 
     .top__text {
-        color: rgba(32, 32, 39, 1);
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 100%;
         text-align: center;
         width: 296px;
         height: 60px;
+        margin-bottom: 36px;
     }
 
     .top-btn {
@@ -43,8 +46,15 @@
         border: 1px solid rgba(32, 32, 39, 1);
         border-radius: 60px;
         background: rgba(32, 32, 39, 1);
-        width: 285px;
-        height: 55px;
+        width: 227px;
+        height: 21px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
     }
 
     .top2 {
@@ -52,8 +62,20 @@
     }
 
     .top3 {
-        display: none;
+       
     }
 
+    .top4 {
+        height: 100px;
+    }
+    
+    .top4__content_text {
+        max-width: 190px;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
 
 }
