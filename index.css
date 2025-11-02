@@ -215,7 +215,6 @@ body {
   margin-top: 46px;
   font-weight: 700;
   font-size: 64px;
-  line-height: 100%;
   color: #FFFFFF;
   margin-bottom: 72px;
 }
@@ -384,7 +383,16 @@ body {
     display: none;
   }
   .top3 {
-    display: none;
+    height: 3740px;
+  }
+  .top3__content {
+    max-width: 375px;
+  }
+  .top3__title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
   }
   .top4 {
     height: 100px;

@@ -63,7 +63,18 @@
     }
 
     .top3 {
-        display: none;
+        height: 3740px;
+    }
+
+    .top3__content {
+        max-width: 375px;
+    }
+
+    .top3__title {
+        color: rgba(255, 255, 255, 1);
+        font-size: 40px;
+        font-weight: 700;
+        text-align: left;
     }
 
     .top4 {
