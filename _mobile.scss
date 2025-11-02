@@ -79,6 +79,22 @@
         margin-bottom: 48px;
     }
 
+    .top3-box__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .top3-box__card4 {
+        display: flex;
+        flex-direction: row;
+        height: 528px;
+    }
+
+    .top3-box__img {
+        width: 343px;
+    }
+
     .top4 {
         height: 100px;
 }
