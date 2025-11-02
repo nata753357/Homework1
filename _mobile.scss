@@ -66,6 +66,10 @@
         height: 3740px;
     }
 
+    .top3__content {
+        max-width: 375px;
+    }
+
     .top3__title {
         color: rgba(255, 255, 255, 1);
         font-size: 40px;
@@ -78,15 +82,13 @@
     }
 
     .top3-box__content {
-        gap: 24px;
-        row-gap: 0;
+        row-gap: 24px;
     }
 
     .top3-box__card4 {
         display: flex;
         flex-direction: column;
-        height: 528px;
-       
+        height: 560px;
     }
 
     .top3-box__img {
@@ -118,7 +120,7 @@
         font-weight: 400;
         line-height: 100%;
         text-align: left;
-        width: 249px;
+        width: 240px;
     }
 
     .top3-box__btn {
@@ -134,7 +136,22 @@
     .top3-box__card5 {
         display: flex;
         flex-direction: column;
-        height: 528px;
+        height: 595px;
+    }
+
+    .top3-box__box-info2 {
+        padding-left: 29px;
+        padding-right: 29px;
+        padding-top: 29px;
+        padding-bottom: 32px;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+        border-top-left-radius: 0;
+    }
+
+    .top3-box__info2 {
+        width: 284px;
+        height: 221px;
     }
 
     .top4 {

@@ -386,6 +386,9 @@ body {
   .top3 {
     height: 3740px;
   }
+  .top3__content {
+    max-width: 375px;
+  }
   .top3__title {
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -397,13 +400,12 @@ body {
     height: 48px;
   }
   .top3-box__content {
-    gap: 24px;
-    row-gap: 0;
+    row-gap: 24px;
   }
   .top3-box__card4 {
     display: flex;
     flex-direction: column;
-    height: 528px;
+    height: 560px;
   }
   .top3-box__img {
     width: 343px;
@@ -431,7 +433,7 @@ body {
     font-weight: 400;
     line-height: 100%;
     text-align: left;
-    width: 249px;
+    width: 240px;
   }
   .top3-box__btn {
     width: 285px;
@@ -444,7 +446,20 @@ body {
   .top3-box__card5 {
     display: flex;
     flex-direction: column;
-    height: 528px;
+    height: 595px;
+  }
+  .top3-box__box-info2 {
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 29px;
+    padding-bottom: 32px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-top-left-radius: 0;
+  }
+  .top3-box__info2 {
+    width: 284px;
+    height: 221px;
   }
   .top4 {
     height: 100px;
