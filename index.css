@@ -321,7 +321,7 @@ body {
   background-size: cover;
 }
 .top4__content {
-  min-width: 285px;
+  max-width: 285px;
 }
 .top4__content_text {
   padding-top: 60px;
@@ -383,9 +383,6 @@ body {
   }
   .top2 {
     display: none;
-  }
-  .top4 {
-    height: 100px;
   }
   .top4__content_text {
     max-width: 190px;

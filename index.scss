@@ -338,7 +338,7 @@ body {
     background-size: cover;
 
     &__content {
-        min-width: 285px;
+        max-width: 285px;
     }
 
     &__content_text {
