@@ -8,8 +8,6 @@
         height: 700px;
     }
 
-
-
     .top__content {
         max-width: 343px;
         height: 371px;
@@ -54,7 +52,10 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
+    }
 
+    .overflow-hidden {
+        display: none;
     }
 
     .top2 {
