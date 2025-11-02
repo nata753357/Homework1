@@ -279,6 +279,7 @@ body {
   border-radius: 60px;
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
+  font-size: 24px;
 }
 
 .top3-box__btn:hover {
@@ -385,9 +386,6 @@ body {
   .top3 {
     height: 3740px;
   }
-  .top3__content {
-    max-width: 375px;
-  }
   .top3__title {
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -395,11 +393,12 @@ body {
     text-align: left;
     margin-top: 48px;
     margin-bottom: 48px;
+    width: 250px;
+    height: 48px;
   }
   .top3-box__content {
-    display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+    row-gap: 0;
   }
   .top3-box__card4 {
     display: flex;
@@ -408,6 +407,39 @@ body {
   }
   .top3-box__img {
     width: 343px;
+  }
+  .top3-box__box-info {
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 29px;
+    padding-bottom: 32px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-top-left-radius: 0;
+  }
+  .top3-box__subtitle {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    width: 249px;
+  }
+  .top3-box__description {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    width: 249px;
+  }
+  .top3-box__btn {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .top3-box__btn:hover {
+    display: none;
   }
   .top3-box__card5 {
     display: flex;
