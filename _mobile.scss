@@ -62,20 +62,17 @@
     }
 
     .top3 {
-       
+        display: none;
     }
 
     .top4 {
-        
-    }
-    
+        height: 100px;
+}
+
     .top4__content_text {
-        max-width: 190px;
         font-size: 16px;
         font-weight: 600;
         padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
     }
 
 }
