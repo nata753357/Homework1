@@ -21,20 +21,17 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top__content {
   max-width: 756px;
   display: grid;
   gap: 48px;
 }
-
 .top__title {
   color: rgb(32, 32, 39);
   margin-top: 196px;
   font-size: 64px;
   line-height: 100%;
 }
-
 .top__text {
   font-weight: 400;
   font-size: 24px;
@@ -48,16 +45,12 @@ body {
   height: 34px;
   border: 1px solid #202027;
   border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
 }
-
 .top-btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
-
-.top-btn {
-  background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
 }
 
 .bigstar {
@@ -106,12 +99,10 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top2__content {
   max-width: 1201px;
   display: grid;
 }
-
 .top2__title {
   margin-top: 94px;
   font-weight: 700;
@@ -120,7 +111,6 @@ body {
   color: #FFFFFF;
   margin-bottom: 24px;
 }
-
 .top2__content_text {
   font-weight: 400;
   font-size: 24px;
@@ -137,19 +127,16 @@ body {
        column-gap: 32px;
   row-gap: 32px;
 }
-
-.top2-box__card {
+.top2-box__content__card {
   height: 473px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__img {
+.top2-box__content__img {
   border-radius: 30px;
 }
-
-.top2-box__info {
+.top2-box__content__info {
   background: #FFFFFF;
   height: 159px;
   display: flex;
@@ -163,8 +150,7 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-
-.top2-box__title {
+.top2-box__content__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 110%;
@@ -177,33 +163,28 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.top2-box__description {
+.top2-box__content__description {
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
 }
-
-.top2-box__card2 {
+.top2-box__content__card2 {
   height: 512px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__card3 {
+.top2-box__content__card3 {
   height: 551px;
   width: 378px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
-.top2-box__description_2 {
+.top2-box__content__description_2 {
   max-width: 78px;
 }
-
-.top2-box__description_3 {
+.top2-box__content__description_3 {
   max-width: 117px;
 }
 
@@ -214,12 +195,10 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top3__content {
   max-width: 1200px;
   display: grid;
 }
-
 .top3__title {
   margin-top: 46px;
   font-weight: 700;
@@ -234,20 +213,17 @@ body {
   flex-wrap: wrap;
   row-gap: 32px;
 }
-
-.top3-box__card4 {
+.top3-box__content__card4 {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
   height: 500px;
 }
-
-.top3-box__img {
+.top3-box__content__img {
   border-radius: 30px;
   width: 600px;
 }
-
-.top3-box__box-info {
+.top3-box__content__box-info {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -259,30 +235,26 @@ body {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
-.top3-box__info {
+.top3-box__content__info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-.top3-box__subtitle {
+.top3-box__content__subtitle {
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 100%;
   margin-bottom: 24px;
 }
-
-.top3-box__description {
+.top3-box__content__description {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 36px;
 }
-
-.top3-box__btn {
+.top3-box__content__btn {
   width: 247px;
   height: 66px;
   border: 1px solid #202027;
@@ -290,19 +262,16 @@ body {
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
 }
-
-.top3-box__btn:hover {
+.top3-box__content__btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-
-.top3-box__card5 {
+.top3-box__content__card5 {
   display: flex;
   flex-direction: row;
   position: relative;
 }
-
-.top3-box__box-info2 {
+.top3-box__content__box-info2 {
   background: #FFFFFF;
   height: 404px;
   width: 504px;
@@ -316,8 +285,7 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-
-.top3-box__info2 {
+.top3-box__content__info2 {
   width: 504px;
   height: 249px;
 }
@@ -329,11 +297,9 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top4__content {
   min-width: 285px;
 }
-
 .top4__content_text {
   padding-top: 60px;
   font-weight: 600;
