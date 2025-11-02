@@ -226,17 +226,20 @@ body {
   flex-wrap: wrap;
   row-gap: 32px;
 }
-.top3-box__content__card4 {
+
+.top3-box__card4 {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
   height: 500px;
 }
-.top3-box__content__img {
+
+.top3-box__img {
   border-radius: 30px;
   width: 600px;
 }
-.top3-box__content__box-info {
+
+.top3-box__box-info {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -248,26 +251,30 @@ body {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-.top3-box__content__info {
+
+.top3-box__info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-.top3-box__content__subtitle {
+
+.top3-box__subtitle {
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 100%;
   margin-bottom: 24px;
 }
-.top3-box__content__description {
+
+.top3-box__description {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 36px;
 }
-.top3-box__content__btn {
+
+.top3-box__btn {
   width: 247px;
   height: 66px;
   border: 1px solid #202027;
@@ -275,16 +282,19 @@ body {
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
 }
-.top3-box__content__btn:hover {
+
+.top3-box__btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-.top3-box__content__card5 {
+
+.top3-box__card5 {
   display: flex;
   flex-direction: row;
   position: relative;
 }
-.top3-box__content__box-info2 {
+
+.top3-box__box-info2 {
   background: #FFFFFF;
   height: 404px;
   width: 504px;
@@ -298,7 +308,8 @@ body {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.top3-box__content__info2 {
+
+.top3-box__info2 {
   width: 504px;
   height: 249px;
 }
