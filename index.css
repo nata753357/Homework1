@@ -320,9 +320,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-.top4__content {
-  max-width: 285px;
-}
 .top4__content_text {
   padding-top: 60px;
   font-weight: 600;
