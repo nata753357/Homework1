@@ -208,7 +208,6 @@ body {
   background-size: cover;
 }
 .top3__content {
-  max-width: 1200px;
   display: grid;
 }
 .top3__title {
