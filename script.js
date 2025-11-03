@@ -1,18 +1,19 @@
 // Задание 1
 
 let a = 10;
+alert(a);
+a = 20; 
 alert (a);
-a = 20; alert (a);
 
 // Задание 2
 
 const dateIPhone = 2007;
-console. log(dateIPhone);
+alert (2007);
 
 // Задание 3
 
 const nameCreatorJS = "Брэндан Эйх";
-console. log(nameCreatorJS);
+alert (Брэндан Эйх);
 
 // Задание 4
 
@@ -33,14 +34,14 @@ alert (5);
 
 // Задание 5
 
-let result = 2 ** 5;
+let results = 2 ** 5;
 alert (32);
 
 // Задание 6
 
-let a = 9;
+let f = 9;
 let b = 2;
-let result = a % b;
+let result = f % b;
 alert (1);
 
 // Задание 7
