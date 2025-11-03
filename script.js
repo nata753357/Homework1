@@ -12,7 +12,7 @@ alert (2007);
 
 // Задание 3
 
-const nameCreatorJS = "Брэндан Эйх";
+const nameCreatorJS = 'Брэндан Эйх';
 alert (Брэндан Эйх);
 
 // Задание 4
