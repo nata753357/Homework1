@@ -13,7 +13,7 @@ alert (2007);
 // Задание 3
 
 const nameCreatorJS = 'Брэндан Эйх';
-alert (Брэндан Эйх);
+console. log(nameCreatorJS);
 
 // Задание 4
 
