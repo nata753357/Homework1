@@ -47,6 +47,13 @@ body {
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
 }
+.top-btn__text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+}
 .top-btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
