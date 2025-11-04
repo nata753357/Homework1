@@ -133,6 +133,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .top2-box__img {
