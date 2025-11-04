@@ -359,10 +359,10 @@ body {
 }
 
 .top3-box__info2 {
-    width: 504px;
-    height: 249px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-
 
 .top4 {
     height: 150px;
