@@ -160,7 +160,7 @@ body {
     padding-right: 32px;
     padding-top: 32px;
     padding-bottom: 36px;
-    
+
 }
 
 .top2-box__title {
@@ -242,10 +242,11 @@ body {
 
 
 .top3-box__card4 {
+    background: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    height: 500px;
+
 }
 
 .top3-box__img {
@@ -304,6 +305,7 @@ body {
 }
 
 .top3-box__card5 {
+    background: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: row;
     position: relative;
