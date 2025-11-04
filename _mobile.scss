@@ -1,7 +1,7 @@
 @media (max-width:767px) {
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
     }
 
     .top {
@@ -98,7 +98,7 @@
         padding-bottom: 32px;
         border-bottom-left-radius: 27px;
         border-bottom-right-radius: 27px;
-        
+
     }
 
     .top3-box__subtitle {

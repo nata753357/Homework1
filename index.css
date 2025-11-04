@@ -265,7 +265,6 @@ body {
 }
 
 .top3-box__box-info {
-  width: 489px;
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -327,7 +326,6 @@ body {
 }
 
 .top3-box__box-info2 {
-  width: 504px;
   background: #FFFFFF;
   height: 404px;
   display: flex;
@@ -363,8 +361,8 @@ body {
 
 @media (max-width: 767px) {
   .center {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
   }
   .top {
     height: 700px;
