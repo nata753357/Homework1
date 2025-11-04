@@ -179,6 +179,7 @@ body {
 }
 
 .top2-box__card2 {
+  background: rgb(255, 255, 255);
   height: 512px;
   display: flex;
   flex-direction: column;
@@ -186,6 +187,7 @@ body {
 }
 
 .top2-box__card3 {
+  background: rgb(255, 255, 255);
   height: 551px;
   width: 378px;
   display: flex;
