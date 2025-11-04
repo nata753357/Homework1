@@ -295,7 +295,6 @@ body {
 .top3-box__box-info2 {
   background: #FFFFFF;
   height: 404px;
-  width: 504px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -453,7 +452,6 @@ body {
     border-top-left-radius: 0;
   }
   .top3-box__info2 {
-    width: 284px;
     height: 221px;
   }
   .top4 {
