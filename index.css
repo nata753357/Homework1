@@ -141,17 +141,21 @@ body {
   border-radius: 30px;
 }
 
-.top2-box__info {
+.top2-box__box-info {
   background: #FFFFFF;
-  height: 159px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   justify-content: center;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 32px;
   padding-bottom: 36px;
+}
+
+.top2-box__info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .top2-box__title {
