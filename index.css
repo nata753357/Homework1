@@ -135,6 +135,8 @@ body {
   position: relative;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .top2-box__img {
@@ -142,7 +144,6 @@ body {
 }
 
 .top2-box__box-info {
-  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,6 +154,7 @@ body {
 }
 
 .top2-box__info {
+  gap: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -188,6 +190,10 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .top2-box__card3 {
@@ -197,6 +203,10 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .top2-box__description_2 {
