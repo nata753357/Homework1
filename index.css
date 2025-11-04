@@ -265,6 +265,7 @@ body {
 }
 
 .top3-box__box-info {
+  max-width: 489px;
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -326,6 +327,7 @@ body {
 }
 
 .top3-box__box-info2 {
+  max-width: 504px;
   background: #FFFFFF;
   height: 404px;
   display: flex;
