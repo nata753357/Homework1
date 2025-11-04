@@ -365,10 +365,12 @@ body {
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
     background: rgb(32, 32, 39);
-    width: 227px;
-    height: 21px;
+    width: 285px;
+    height: 55px;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
