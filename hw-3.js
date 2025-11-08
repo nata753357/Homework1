@@ -67,3 +67,20 @@ switch (montNumber) {
         break;     
 }
 
+// Дополнительные задания 
+// Задание 1
+
+let p = (prompt('Пожалуйста, введите любое число'));
+let result = Number (p);
+
+if (isNaN(result)) {
+    alert ('Не является числом');
+} else {
+    alert ('Является числом');
+}
+
+if (result % 2 === 0) {
+    alert ('Четное число');
+} else {
+    alert ('Нечетное число');
+}
