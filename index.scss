@@ -241,7 +241,25 @@ body {
 .bigstar3 {
     position: absolute;
     box-sizing: border-box;
-    
+    top: 877px;
+    left: 933px;
+    background: rgba(32, 32, 39, 1);
+}
+
+.bigstar4 {
+    position: absolute;
+    opacity: 1;
+    top: 1622px;
+    left: 40px;
+    border-width: 1px;
+}
+
+.littlestar3 {
+    position: absolute;
+    opacity: 1;
+    top: 1570px;
+    left: 25px;
+    border-width: 1px;
 }
 
 .top3 {
