@@ -135,7 +135,6 @@ body {
 }
 
 .top2-box__card {
-  transition: transform 0.5s;
   background: rgb(255, 255, 255);
   height: 473px;
   display: flex;
@@ -145,9 +144,10 @@ body {
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  transition: transform 0.5s;
 }
 
-.top2-box__card :hover {
+.top2-box__card:hover {
   transform: scale(1.1);
 }
 
@@ -206,6 +206,11 @@ body {
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  transition: transform 0.5s;
+}
+
+.top2-box__card2:hover {
+  transform: scale(1.1);
 }
 
 .top2-box__card3 {
@@ -219,6 +224,11 @@ body {
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  transition: transform 0.5s;
+}
+
+.top2-box__card3:hover {
+  transform: scale(1.1);
 }
 
 .top2-box__description_2 {
