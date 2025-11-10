@@ -146,6 +146,7 @@ body {
 }
 
 .top2-box__card {
+    transition: transform 0.5s;
     background: rgba(255, 255, 255, 1);
     height: 473px;
     display: flex;
@@ -155,6 +156,10 @@ body {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+.top2-box__card :hover {
+    transform: scale(1.1);
 }
 
 .top2-box__img {
