@@ -60,3 +60,25 @@ while (k >= 0) {
     num ++;
 }
 console.log (`Количество циклов: ${num}`);
+
+// Задание 2
+
+const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+for (let i = 0; i < months.length; i ++) {
+    console.log (`${i+1} ${months [i]}`);
+}
+
+// Задание 3
+
+const book = {
+title: "50 shades of Grey",
+author: "Эрика Леонард Джеймс",
+year: 2011,
+genre: "Драма, триллер, медодрамма, эротика"
+};
+
+console.log ("title:" + book.title);
+console.log ("author:" + book.author);
+console.log ("year:" + book.year);
+console.log ("genre:" + book.genre);
+
