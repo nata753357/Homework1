@@ -15,3 +15,15 @@ for (let i = 1; i <= 5; i++) {
 for (let i = 7; i<= 22; i++) {
     console.log (i);
 }
+
+// Задание 4
+
+const obj = {
+    nik:'200',
+    vasya: '300',
+    pety: '400'
+}
+    for (const key in obj) {
+        console.log (`${key} - ${obj[key]}`); 
+        
+    }
