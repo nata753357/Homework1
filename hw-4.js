@@ -21,7 +21,7 @@
 //const obj = {
 //    nik:'200',
 //    vasya: '300',
- //   pety: '400'
+//   pety: '400'
 //}
 //    for (const key in obj) {
 //        console.log (`${key} - ${obj[key]}`); 
@@ -52,33 +52,36 @@
 
 // Задание 1
 
-let k = 100;
-let num = 0;
-while (k >= 0) {
-    k -= 7;
-    console.log (k);
-    num ++;
-}
-console.log (`Количество циклов: ${num}`);
+//let k = 100;
+//let num = 0;
+//while (k >= 0) {
+//    k -= 7;
+//    console.log (k);
+//    num ++;
+//}
+//console.log (`Количество циклов: ${num}`);
 
 // Задание 2
 
-const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
-for (let i = 0; i < months.length; i ++) {
-    console.log (`${i+1} ${months [i]}`);
-}
+//const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+//for (let i = 0; i < months.length; i ++) {
+//    console.log (`${i+1} ${months [i]}`);
+//}
 
 // Задание 3
 
-const book = {
-title: "50 shades of Grey",
-author: "Эрика Леонард Джеймс",
-year: 2011,
-genre: "Драма, триллер, медодрамма, эротика"
-};
+// const book = {
 
-console.log ("title:" + book.title);
-console.log ("author:" + book.author);
-console.log ("year:" + book.year);
-console.log ("genre:" + book.genre);
+// title: "50 shades of Grey",
+// author: "Эрика Леонард Джеймс",
+// year: 2011,
+// genre: "Драма, триллер, медодрамма, эротика"
+// };
+
+// console.log ("title:" + book.title);
+// console.log ("author:" + book.author);
+// console.log ("year:" + book.year);
+// console.log ("genre:" + book.genre);
+
+
 
