@@ -30,20 +30,33 @@
 
 // Задание 5
 
-let n = 1000;
-let num = 0;
-while (n >= 50) {
-    n /= 2;
-    console.log (n);
-    num ++;
-}
-console.log (`Количество циклов: ${num}`);
+//let n = 1000;
+//let num = 0;
+//while (n >= 50) {
+//    n /= 2;
+//    console.log (n);
+//    num ++;
+//}
+//console.log (`Количество циклов: ${num}`);
 
 // Задание 6
 
-let dayFriday = 1;
-let allDay = 31;
+//et dayFriday = 1;
+//let allDay = 31;
 
-for (let i = dayFriday; i <= allDay; i += 7) {
-    console.log (`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
+//for (let i = dayFriday; i <= allDay; i += 7) {
+//    console.log (`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
+//}
+
+// Дополнителые задания
+
+// Задание 1
+
+let k = 100;
+let num = 0;
+while (k >= 0) {
+    k -= 7;
+    console.log (k);
+    num ++;
 }
+console.log (`Количество циклов: ${num}`);
