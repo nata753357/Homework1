@@ -38,3 +38,12 @@ while (n >= 50) {
     num ++;
 }
 console.log (`Количество циклов: ${num}`);
+
+// Задание 6
+
+let dayFriday = 1;
+let allDay = 31;
+
+for (let i = dayFriday; i <= allDay; i += 7) {
+    console.log (`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
+}
