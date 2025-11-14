@@ -443,6 +443,10 @@ body {
   }
   .top {
     height: 700px;
+    background-color: rgb(225, 255, 143);
+    background-image: url(img/Vector5.svg);
+    background-position: calc(100% + 91px) 24px;
+    background-repeat: no-repeat;
   }
   .top__content {
     display: flex;
