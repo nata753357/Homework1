@@ -98,6 +98,10 @@ body {
   border-width: 1px;
 }
 
+.overflow-hidden-mob {
+  display: none;
+}
+
 .top2 {
   height: 1470px;
   background-image: url(img/top2.jpg);
@@ -444,6 +448,16 @@ body {
   .top {
     height: 700px;
   }
+  .star2 {
+    display: none;
+  }
+  .star3 {
+    position: absolute;
+    width: 224px;
+    height: 238px;
+    top: -104px;
+    left: 188px;
+  }
   .top__content {
     display: flex;
     flex-direction: column;
@@ -487,9 +501,6 @@ body {
   .top-btn_text {
     font-size: 16px;
     font-family: Montserrat;
-  }
-  .overflow-hidden {
-    display: none;
   }
   .top2 {
     display: none;

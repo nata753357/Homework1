@@ -8,6 +8,18 @@
         height: 700px;
     }
 
+    .star2 {
+        display: none;
+    }
+
+    .star3 {
+        position: absolute;
+        width: 224px;
+        height: 238px;
+        top: -104px;
+        left: 188px;
+    }
+
     .top__content {
 
         display: flex;
@@ -57,10 +69,6 @@
     .top-btn_text {
         font-size: 16px;
         font-family: Montserrat;
-    }
-
-    .overflow-hidden {
-        display: none;
     }
 
     .top2 {
