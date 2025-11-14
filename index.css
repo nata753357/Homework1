@@ -22,6 +22,7 @@ body {
   background-size: cover;
 }
 .top__content {
+  max-width: 756px;
   display: grid;
   gap: 48px;
 }
