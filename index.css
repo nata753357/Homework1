@@ -22,7 +22,6 @@ body {
   background-size: cover;
 }
 .top__content {
-  max-width: 756px;
   display: grid;
   gap: 48px;
 }
@@ -476,9 +475,11 @@ body {
     display: none;
   }
   .top__content {
+    background-image: url(img/mobbigstar3.svg);
+    background-position: 180px 0px;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 36px;
   }
