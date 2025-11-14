@@ -454,33 +454,6 @@ body {
     align-items: center;
     gap: 36px;
   }
-  .bigstar {
-    width: 35px;
-    height: 35px;
-    top: 97px;
-    left: 37px;
-  }
-  .littlestar {
-    width: 21px;
-    height: 21px;
-    top: 64px;
-    left: 91px;
-  }
-  .bigstar2 {
-    width: 39px;
-    height: 41px;
-    top: 580px;
-    right: 34px;
-  }
-  .littlestar2 {
-    width: 18px;
-    height: 18px;
-    top: 557px;
-    right: 86px;
-  }
-  .star2 {
-    display: none;
-  }
   .top__title {
     color: rgb(32, 32, 39);
     font-size: 40px;
@@ -517,6 +490,33 @@ body {
   .top-btn_text {
     font-size: 16px;
     font-family: Montserrat;
+  }
+  .bigstar {
+    width: 35px;
+    height: 35px;
+    top: 97px;
+    left: 37px;
+  }
+  .littlestar {
+    width: 21px;
+    height: 21px;
+    top: 64px;
+    left: 91px;
+  }
+  .bigstar2 {
+    width: 39px;
+    height: 41px;
+    top: 580px;
+    right: 34px;
+  }
+  .littlestar2 {
+    width: 18px;
+    height: 18px;
+    top: 557px;
+    right: 86px;
+  }
+  .star2 {
+    display: none;
   }
   .top2 {
     display: none;
