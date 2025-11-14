@@ -8,20 +8,39 @@
         height: 700px;
     }
 
+    .bigstar {
+        width: 35px;
+        height: 35px;
+        top: 97px;
+        left: 37px;
+    }
+
+    .littlestar {
+        width: 21px;
+        height: 21px;
+        top: 64px;
+        left: 91px;
+    }
+
+    .bigstar2 {
+        width: 39px;
+        height: 41px;
+        top: 580px;
+        right: 34px;
+    }
+
+    .littlestar2 {
+        width: 18px;
+        height: 18px;
+        top: 557px;
+        right: 86px;
+    }
+
     .star2 {
         display: none;
     }
 
-    .star3 {
-        position: absolute;
-        width: 224px;
-        height: 238px;
-        top: -104px;
-        left: 188px;
-    }
-
     .top__content {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
