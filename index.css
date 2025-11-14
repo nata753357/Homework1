@@ -448,6 +448,12 @@ body {
   .top {
     height: 700px;
   }
+  .top__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
   .bigstar {
     width: 35px;
     height: 35px;
@@ -474,15 +480,6 @@ body {
   }
   .star2 {
     display: none;
-  }
-  .top__content {
-    background-image: url(img/mobbigstar3.svg);
-    background-repeat: no-repeat;
-    background-position: 188.16px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 36px;
   }
   .top__title {
     color: rgb(32, 32, 39);

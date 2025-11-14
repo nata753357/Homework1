@@ -6,6 +6,20 @@
 
     .top {
         height: 700px;
+
+        //   background-image: url(img/mobbigstar3.svg);
+        //   background-repeat: no-repeat;
+        //   background-position: 188px 0px;
+        //   background: #E1FF8F;
+
+    }
+
+    .top__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+
     }
 
     .bigstar {
@@ -40,16 +54,6 @@
         display: none;
     }
 
-    .top__content {
-        background-image: url(img/mobbigstar3.svg);
-        background-repeat: no-repeat;
-        background-position: 188.16px 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 36px;
-    }
-
     .top__title {
         color: rgba(32, 32, 39, 1);
         font-size: 40px;
@@ -58,6 +62,7 @@
         width: 262px;
         height: 196px;
         margin-top: 147px;
+
     }
 
     .top__text {
