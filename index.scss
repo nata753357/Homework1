@@ -24,20 +24,16 @@ body {
     background-size: cover;
 
     &__box-container {
-        max-width: 769px;
-        max-height: 358px;
         padding-top: 196px;
     }
 
-    &__content {
-        height: 244px;
-        padding-bottom: 48px;
-    }
-
     &__title {
-        color: rgba(32, 32, 39, 1);
+        font-family: Montserrat;
+        font-weight: 700;
         font-size: 64px;
-        padding-bottom: 24px;
+        line-height: 100%;
+        max-width: 769px;
+        margin-bottom: 24px;
     }
 
     &__text {
@@ -46,6 +42,7 @@ body {
         line-height: 32px;
         width: 720px;
         height: 64px;
+        margin-bottom: 48px;
     }
 }
 

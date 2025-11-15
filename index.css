@@ -22,18 +22,15 @@ body {
   background-size: cover;
 }
 .top__box-container {
-  max-width: 769px;
-  max-height: 358px;
   padding-top: 196px;
 }
-.top__content {
-  height: 244px;
-  padding-bottom: 48px;
-}
 .top__title {
-  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-weight: 700;
   font-size: 64px;
-  padding-bottom: 24px;
+  line-height: 100%;
+  max-width: 769px;
+  margin-bottom: 24px;
 }
 .top__text {
   font-weight: 400;
@@ -41,6 +38,7 @@ body {
   line-height: 32px;
   width: 720px;
   height: 64px;
+  margin-bottom: 48px;
 }
 
 .top-btn {
