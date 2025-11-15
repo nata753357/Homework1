@@ -23,16 +23,21 @@ body {
     background-position: center;
     background-size: cover;
 
+    &__box-container {
+        max-width: 769px;
+        max-height: 358px;
+        padding-top: 196px;
+    }
+
     &__content {
-        max-width: 756px;
-        display: grid;
-        gap: 48px;
+       height: 244px;
+       padding-bottom: 48px;
     }
 
     &__title {
         color: rgba(32, 32, 39, 1);
-        margin-top: 196px;
         font-size: 64px;
+        padding-bottom: 24px;
     }
 
     &__text {
