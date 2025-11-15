@@ -452,11 +452,18 @@ body {
   .top {
     height: 700px;
   }
-  .top__content {
+  .top__box-container {
+    max-width: 343px;
+    max-height: 371px;
+    padding-top: 147px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 36px;
+  }
+  .top__content {
+    height: 280px;
+    padding-bottom: 36px;
   }
   .top__title {
     color: rgb(32, 32, 39);
@@ -465,7 +472,7 @@ body {
     text-align: center;
     width: 262px;
     height: 196px;
-    margin-top: 147px;
+    padding-bottom: 24px;
   }
   .top__text {
     font-size: 16px;
