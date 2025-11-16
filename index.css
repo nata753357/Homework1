@@ -21,15 +21,16 @@ body {
   background-position: center;
   background-size: cover;
 }
-.top__content {
-  max-width: 756px;
-  display: grid;
-  gap: 48px;
+.top__box-container {
+  padding-top: 196px;
 }
 .top__title {
-  color: rgb(32, 32, 39);
-  margin-top: 196px;
+  font-family: Montserrat;
+  font-weight: 700;
   font-size: 64px;
+  line-height: 100%;
+  max-width: 769px;
+  margin-bottom: 24px;
 }
 .top__text {
   font-weight: 400;
@@ -37,6 +38,7 @@ body {
   line-height: 32px;
   width: 720px;
   height: 64px;
+  margin-bottom: 48px;
 }
 
 .top-btn {
@@ -96,6 +98,10 @@ body {
   top: -4px;
   left: 935px;
   border-width: 1px;
+}
+
+.overflow-hidden-mob {
+  display: none;
 }
 
 .top2 {
@@ -402,12 +408,10 @@ body {
 }
 
 .top3-box__box-info2 {
-  max-width: 504px;
+  max-width: 489px;
   background: #FFFFFF;
-  height: 404px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 48px;
@@ -443,13 +447,17 @@ body {
   }
   .top {
     height: 700px;
+    background-image: url(img/mobbigstar3.svg);
+    background-position: 220px 0px;
+    background-size: inherit;
+    background-color: #E1FF8F;
   }
-  .top__content {
+  .top__box-container {
+    padding-top: 147px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 36px;
   }
   .top__title {
     color: rgb(32, 32, 39);
@@ -457,9 +465,6 @@ body {
     font-weight: 700;
     text-align: center;
     width: 262px;
-    height: 196px;
-    margin-bottom: 24px;
-    margin-top: 147px;
   }
   .top__text {
     font-size: 16px;
@@ -486,7 +491,36 @@ body {
     align-content: center;
     justify-content: center;
   }
-  .overflow-hidden {
+  .top-btn_text {
+    font-size: 16px;
+    font-family: Montserrat;
+  }
+  .bigstar {
+    width: 35px;
+    height: 35px;
+    top: 97px;
+    left: 37px;
+  }
+  .littlestar {
+    width: 21px;
+    height: 21px;
+    top: 64px;
+    left: 91px;
+  }
+  .bigstar2 {
+    width: 39px;
+    height: 41px;
+    right: 34px;
+  }
+  .littlestar2 {
+    width: 18px;
+    height: 18px;
+    right: 86px;
+  }
+  .star2 {
+    display: none;
+  }
+  .overflow-hidden2 {
     display: none;
   }
   .top2 {
@@ -510,7 +544,6 @@ body {
   .top3-box__card4 {
     display: flex;
     flex-direction: column;
-    height: 560px;
   }
   .top3-box__img {
     width: 343px;
@@ -543,6 +576,7 @@ body {
     width: 285px;
     height: 55px;
     font-size: 16px;
+    font-family: Montserrat;
   }
   .top3-box__btn:hover {
     display: none;
@@ -550,7 +584,6 @@ body {
   .top3-box__card5 {
     display: flex;
     flex-direction: column;
-    height: 590px;
   }
   .top3-box__box-info2 {
     padding-left: 29px;
