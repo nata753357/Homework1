@@ -83,24 +83,6 @@
 
 // Задание 4
 
- // const random = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
- // for ( let min = 0; min <= 10; 
- //      i ++) {
- //     console.log (`${min+1} ${random [min]}`);
- //     console.log (`${min+2} ${random [min]}`);
- //     console.log (`${min+3} ${random [min]}`);
- //     console.log (`${min+4} ${random [min]}`);
- //     console.log (`${min+5} ${random [min]}`);
-  //    console.log (`${min+6} ${random [min]}`); 
- //     console.log (`${min+7} ${random [min]}`);
- //     console.log (`${min+8} ${random [min]}`);
- //     console.log (`${min+9} ${random [min]}`);
-  //    console.log (`${min+10} ${random [min]}`);
-
- // }  Не правильно роешено
-
-// Задание 5
-
  // const min1 = Math.min(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
  // console.log("Минимальное число (Math.min):", min1);
