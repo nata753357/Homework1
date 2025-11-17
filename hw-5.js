@@ -63,20 +63,40 @@
 
 // Задание 5 
 
-    function calc(a,b) {
-        console.log (isNaN (a));
-        console.log (isNaN (b));
+  //  function calc(a,b) {
+  //      console.log (isNaN (a));
+  //      console.log (isNaN (b));
 
-     if (isNaN (a) || isNaN (b)) {
-        return 'Одно или оба значения не является числом';
-    } else {
-        return a + b;
-    }
-    } 
-        console.log (calc (5,2));
+  //   if (isNaN (a) || isNaN (b)) {
+  //      return 'Одно или оба значения не является числом';
+  //  } else {
+  //      return a + b;
+  //  }
+  //  } 
+   //     console.log (calc (5,2));
 
     // Задание 6
+// 1
+
+ // function getNumber() {
+ //     let number = prompt('Введите число');
+ //     console.log(isNaN(number));
+ // }
+ // getNumber();
+
+// 2
+
+   function getNumber() {
+       let number = prompt ('Введите число');
+        if (isNaN(number)) {
+           return 'Переданный параметр не является числом';
+       } else {
+           return `${number} в кубе равняется ${number ** 3}`;
+       }
+    }
+       console.log(getNumber());
 
     
+
 
 
