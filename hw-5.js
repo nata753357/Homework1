@@ -1,13 +1,15 @@
-let whatNumber = prompt('Угадай число');
+// Задание 1
 
-{
-    if (whatNumber > 0 && whatNumber < 50) {
-        alert('Заданное число больше');
-    } else if (whatNumber > 52 && whatNumber < 100){
-        alert('Заданное число меньше');
-    } else if (whatNumber !== 51) {
-        alert('Угадал');
-    } else {
-        alert('Не понимаю');
-    }
-}
+ function min(a,b) {
+     if (a < b){
+         return a;
+     } else {
+         return b;
+     }
+ }
+
+console.log(min(8,4));
+console.log(min(6,6));
+
+// Задание 2
+
