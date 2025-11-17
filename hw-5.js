@@ -13,3 +13,15 @@ console.log(min(6,6));
 
 // Задание 2
 
+ function isEven(n) {
+ if (n % 2 === 0){
+    return 'Число четное';
+ } else {
+    return 'Число нечетное';
+ }
+ }
+
+ console.log (isEven(2));
+ console.log (isEven(3));
+
+
