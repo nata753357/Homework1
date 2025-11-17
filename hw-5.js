@@ -82,20 +82,42 @@
  //     let number = prompt('Введите число');
  //     console.log(isNaN(number));
  // }
- // getNumber();
+ // getNumber();//
 
 // 2
 
-   function getNumber() {
-       let number = prompt ('Введите число');
-        if (isNaN(number)) {
-           return 'Переданный параметр не является числом';
-       } else {
-           return `${number} в кубе равняется ${number ** 3}`;
-       }
-    }
-       console.log(getNumber());
+  // function getNumber() {
+   //    let number = prompt ('Введите число');
+  //      if (isNaN(number)) {
+  //         return 'Переданный параметр не является числом';
+  //     } else {
+  //         return `${number} в кубе равняется ${number ** 3}`;
+  //     }
+  //  }
+  //     console.log(getNumber());
 
+  // Задание 7
+
+  function getArea () {
+    return Math.PI * this.radius ** 2;
+  }
+   function getPerimeter () {
+    return 2 * Math.PI * this.radius;
+   }
+   const circle1 = {
+    radius: 10,
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter,
+    }
+    const circle2 = {
+    radius: 20,
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter,
+    } 
+    console.log(circle1.methodGetArea());
+    console.log(circle2.methodGetArea());
+
+   
     
 
 
