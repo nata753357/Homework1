@@ -1,0 +1,1 @@
+let whatNumber('Угадай число');
