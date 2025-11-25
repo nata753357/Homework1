@@ -117,8 +117,6 @@
   //  console.log(circle1.methodGetArea());
   //  console.log(circle2.methodGetArea());
 
-   
-    
-
+  
 
 
