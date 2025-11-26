@@ -72,9 +72,9 @@
      if (isNaN (a) || isNaN (b)) {
         return 'Одно или оба значения не является числом';
     } else {
-        return a + b;
+        return a * b;
     }
-    } 
+}
         console.log (calc (5,2));
 
     // Задание 6

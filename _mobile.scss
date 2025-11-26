@@ -7,7 +7,7 @@
     .top {
         height: 700px;
         background-image: url(img/mobbigstar3.svg);
-        background-position: 220px 0px;
+        background-position: right 0px;
         background-size: inherit;
         background-color: #E1FF8F;
     }
@@ -25,7 +25,9 @@
         font-size: 40px;
         font-weight: 700;
         text-align: center;
-        width: 262px;
+        max-width: 262px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .top__text {
