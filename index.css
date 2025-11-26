@@ -249,7 +249,7 @@ body {
   position: absolute;
   box-sizing: border-box;
   top: 877px;
-  right: 0px;
+  right: -142px;
 }
 
 .bigstar4 {
@@ -290,7 +290,8 @@ body {
   position: absolute;
   opacity: 1;
   top: 2396px;
-  right: 102px;
+  right: 44px;
+  left: 1320px;
   border-width: 1px;
 }
 
@@ -298,7 +299,8 @@ body {
   position: absolute;
   opacity: 1;
   top: 2363px;
-  right: 200px;
+  right: 124px;
+  left: 1277px;
   border-width: 1px;
 }
 
@@ -306,7 +308,8 @@ body {
   position: absolute;
   opacity: 1;
   top: 5636px;
-  right: 102px;
+  right: 52px;
+  left: 1319px;
   border-width: 1px;
 }
 
@@ -314,7 +317,8 @@ body {
   position: absolute;
   opacity: 1;
   top: 5684px;
-  right: 200px;
+  right: 150px;
+  left: 1249px;
   border-width: 1px;
 }
 
@@ -517,6 +521,9 @@ body {
     right: 86px;
   }
   .star2 {
+    display: none;
+  }
+  .bigstar3 {
     display: none;
   }
   .overflow-hidden2 {
