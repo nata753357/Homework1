@@ -47,3 +47,14 @@ console.log (arr1);
 const arr3 = [9, 8, 7, 'a', 6, 5];
 arr3.sort();
 console.log (arr3);
+
+// Задание 7
+
+const arr4 = [9, 8, 7, 6, 5];
+
+const userNumber = +prompt ('Введите число');
+if (arr4.includes(userNumber)) {
+    alert ('Угадал');
+} else {
+    alert ('Не угадал');q
+}
