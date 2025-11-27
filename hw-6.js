@@ -50,20 +50,33 @@ console.log (arr3);
 
 // Задание 7
 
-const arr4 = [9, 8, 7, 6, 5];
+// const arr4 = [9, 8, 7, 6, 5];
 
-const userNumber = +prompt ('Введите число');
-if (arr4.includes(userNumber)) {
-    alert ('Угадал');
-} else {
-    alert ('Не угадал');q
-}
+// const userNumber = +prompt ('Введите число');
+// if (arr4.includes(userNumber)) {
+//     alert ('Угадал');
+// } else {
+//     alert ('Не угадал');
+// }
 
 // Задание 8
 
-let str = 'abcdef';
-str = str.split ('');
-console.log (str);
-str.reverse();
-str = str.join ('');
-console.log (str);
+ let str = 'abcdef';
+ str = str.split ('');
+ console.log (str);
+ str.reverse();
+ str = str.join ('');
+ console.log (str);
+
+// Задание 9
+
+const arr5 = [[1,2,3], [4,5,6]];
+const newArr = [];
+
+for (let i = 0; i < arr5.length; i ++) {
+    newArr.push (...arr5 [i]);
+}
+console.log (newArr);
+
+
+
