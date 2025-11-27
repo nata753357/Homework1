@@ -110,8 +110,8 @@ console.log (negativeNumbers([1, 2, 3, -4, 5, -6, 7, 8, 9, 10]));
 
 // Задание 14
 
-function randomNumber () {
-    return Math.floor (Math.random () * 10)
+function randomNumber() {
+    return Math.floor (Math.random () * 10);
 }
 const arr9 = [];
 
@@ -129,3 +129,16 @@ for ( let i = 0; i < arr9.length; i++) {
 }
 console.log (evenArr);
 
+// Задание 15
+
+function randomNumber() {
+    return Math.floor (Math.random () * 10);
+}
+const arr10 = [];
+
+for (let i = 0; i < 10; i++) {
+    arr10.push (randomNumber());
+}
+console.log(arr10);
+
+console.log(arr10.reduce ((a,b) => a + b) / arr10.length);
