@@ -108,3 +108,24 @@ function negativeNumbers (array) {
 }
 console.log (negativeNumbers([1, 2, 3, -4, 5, -6, 7, 8, 9, 10]));
 
+// Задание 14
+
+function randomNumber () {
+    return Math.floor (Math.random () * 10)
+}
+const arr9 = [];
+
+for (let i = 0; i < 10; i++) {
+    arr9.push (randomNumber());
+}
+console.log (arr9);
+
+const evenArr = [];
+
+for ( let i = 0; i < arr9.length; i++) {
+    if (arr9 [i] % 2 === 0) {
+        evenArr.push (arr9 [i]);
+    }
+}
+console.log (evenArr);
+
