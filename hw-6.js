@@ -2,7 +2,7 @@
 
 const arr = [1, 5, 4, 10, 0, 3]
 for (let i = 0; i < arr.length; i ++) {
-    console.log (arr[1]);
+    console.log (arr[i]);
     if (arr [i] === 10) {
         break;
     }
@@ -22,4 +22,20 @@ for (let i = 0; i < array.length; i ++) {
 
 const Array = [1, 3, 5, 10, 20];
 console.log (Array.join(' '));
+
+// Задание 4
+
+const arr0 = [];
+
+for (let i = 0; i < 3; i++) {
+    const arr2 = [];
+    for (let i = 0; i < 3; i ++) {
+        arr0.push(1);
+    }
+    arr0.push(arr2)
+}
+console.log(arr0);
+
+// Задание 5
+
 
