@@ -14,42 +14,41 @@
          }
      }
  }
-
+     
  function startGame2 () {
-    const operations = ['+', '-', '*', '/'];
-    let operation = operations [Math.floor (Math.random () * operations.length)];
-    //let a,b, result;
-    //let userAnswer;
+    const operators = ['+', '-', '*', '/' ];
+    const operator = operators [Math.floor (Math.random() * operators.length)];
+    let a, b, result;
+    let userAnswer;
 
-    a = Math.floor (Math.random () * 10) + 1;
-    b = Math.floor (Math.random () * 10) + 1;
+    a = Math.floor (Math.random() * 10) + 1;
+    b = Math.floor (Math.random() * 10) + 1;
 
-    switch (operation) {
+    switch (operator) {
         case '+':
-        userAnswer = prompt (`Сложите ${a} и ${b}`);
-        result = a + b;
-        break;
+            userAnswer = +prompt (`Сложите ${a} и ${b}`);
+            result = a + b;
+            break;
 
         case '-':
-        userAnswer = prompt (`Вычитание ${a} и ${b}`);
-        result = a - b;
-        break;
+            userAnswer = +prompt (`Вычтите ${a} и ${b}`);
+            result = a - b;
+            break;
 
         case '*':
-        userAnswer = prompt (` ${a} умножить на ${b}`);
-        result = a * b;
-        break;
+            userAnswer = +prompt (`Умножьте ${a} и ${b}`);
+            result = a * b;
+            break;
 
         case '/':
-        userAnswer = prompt (` ${a} разделить на ${b}`);
-        result = a / b;
-        break;
+            userAnswer = +prompt (`Разделите ${a} и ${b}`);
+            result = a / b;
+            break;
     }
 
-    if (Number(userAnswer === result)) {
-             alert(`Верно`);
-         } else {
-             alert(`Правильный ответ`);
-         }
- }
- 
+    if (userAnswer === result) {
+        alert (`Это верный ответ!`)
+    } else {
+        alert (`Ошибка!`)
+    }
+}
