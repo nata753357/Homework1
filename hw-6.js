@@ -58,3 +58,12 @@ if (arr4.includes(userNumber)) {
 } else {
     alert ('Не угадал');q
 }
+
+// Задание 8
+
+let str = 'abcdef';
+str = str.split ('');
+console.log (str);
+str.reverse();
+str = str.join ('');
+console.log (str);
