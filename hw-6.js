@@ -38,4 +38,7 @@ console.log(arr0);
 
 // Задание 5
 
+const arr1 = [1, 1, 1];
+arr1.push (2, 2, 2);
+console.log (arr1);
 
