@@ -96,5 +96,12 @@ console.log (square([1, 2, 3]));
 
 // Задание 12
 
+function getLength (arr8) {
+    return arr8.map(item => item.length);
+}
+console.log (getLength(['hi', 'world']));
+
+// Задание 13
+
 
 
