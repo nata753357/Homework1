@@ -42,3 +42,8 @@ const arr1 = [1, 1, 1];
 arr1.push (2, 2, 2);
 console.log (arr1);
 
+// Задание 6
+
+const arr3 = [9, 8, 7, 'a', 6, 5];
+arr3.sort();
+console.log (arr3);
