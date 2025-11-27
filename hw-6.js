@@ -103,5 +103,8 @@ console.log (getLength(['hi', 'world']));
 
 // Задание 13
 
-
+function negativeNumbers (array) {
+    return array.filter(item => item < 0);
+}
+console.log (negativeNumbers([1, 2, 3, -4, 5, -6, 7, 8, 9, 10]));
 
