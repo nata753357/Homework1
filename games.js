@@ -45,7 +45,7 @@
             result = a / b;
             break;
     }
-
+    
     if (userAnswer === result) {
         alert (`Это верный ответ!`)
     } else {
