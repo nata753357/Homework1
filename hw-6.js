@@ -87,5 +87,14 @@ for (let i = 0; i < arr6.length; i ++) {
     }
 }
 
+// Задание 11
+
+function square (arr7) {
+    return arr7.map(item => item ** 2);
+}
+console.log (square([1, 2, 3]));
+
+// Задание 12
+
 
 
