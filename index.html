@@ -9,14 +9,14 @@
 </head>
 <body>
 
-<script src=""></script>
+ <script src=""></script>
 
-<div class="top center">
+<section class="top center">
     <div class="top__box-container">
-<section class="top__content">
+<div class="top__content">
     <h1 class="top__title">Добро пожаловать на мой сайт мини-игр</h1>
     <p class="top__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b>«Поехали!</b>» и <b>приступай</b>.</p>
-</section>
+</div>
     <button class="top-btn top-btn_text">Поехали!</button>
     </div>
 
@@ -31,7 +31,7 @@
         <img class="star2" src="img/bigstar1.svg" alt="">
     </div> 
 </div>
-</div>
+</section>
 
 <div class="top2 center">
 <div class="top2__content">
@@ -52,7 +52,6 @@
 <section class="top2-box center">
     <div class="top2-box__content">
 
-        <div class="top2-box__box-card">
         <article class="top2-box__card">
         <img src="img/picture1.jpg" alt="product" class="top2-box__img">
         <div class="top2-box__box-info">
@@ -62,7 +61,6 @@
         </div>
         </div>
         </article>
-        </div>
 
         <article class="top2-box__card2">
         <img src="img/picture2.jpg" alt="product" class="top2-box__img">
@@ -140,7 +138,7 @@
         <div class="top3-box__info">
         <h3 class="top3-box__subtitle">Угадай число</h3>
         <p class="top3-box__description">Попробуй угадать случайное число от 1 до 100.</p> 
-        <button class="top3-box__btn">Играть!</button>
+        <button class="top3-box__btn" onclick="startGame1()">Играть!</button>
         </div>
         </div>
         </article>
@@ -151,7 +149,7 @@
         <div class="top3-box__info2">
         <h3 class="top3-box__subtitle">Простая арифметика</h3>
         <p class="top3-box__description">Попробуй решить простые арифметические задачи.</p> 
-        <button class="top3-box__btn">Играть!</button> 
+        <button class="top3-box__btn" onclick="startGame2()">Играть!</button> 
         </div>
         </div>
         </article>
@@ -209,6 +207,8 @@
     <p class="top4__content top4__content_text">Все права защищены.</p>
     </div>
 </div>
+
+<script src="games.js"></script>
 
 </body>
 </html>
