@@ -50,14 +50,14 @@ console.log (arr3);
 
 // Задание 7
 
-// const arr4 = [9, 8, 7, 6, 5];
+ const arr4 = [9, 8, 7, 6, 5];
 
-// const userNumber = +prompt ('Введите число');
-// if (arr4.includes(userNumber)) {
-//     alert ('Угадал');
-// } else {
-//     alert ('Не угадал');
-// }
+ const userNumber = +prompt ('Введите число');
+ if (arr4.includes(userNumber)) {
+     alert ('Угадал');
+ } else {
+     alert ('Не угадал');
+ }
 
 // Задание 8
 
