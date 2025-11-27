@@ -78,5 +78,14 @@ for (let i = 0; i < arr5.length; i ++) {
 }
 console.log (newArr);
 
+// Задание 10
+
+const arr6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < arr6.length; i ++) {
+    if (arr6 [i + 1] ){
+        console.log (arr6 [i] + arr6 [i + 1]);
+    }
+}
+
 
 
