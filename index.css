@@ -41,13 +41,16 @@ body {
   margin-bottom: 48px;
 }
 
+.top__btn {
+  text-decoration: none;
+}
+
 .top-btn {
   width: 247px;
   height: 66px;
   border: 1px solid #202027;
   border-radius: 60px;
   background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
 }
 .top-btn_text {
   color: rgb(255, 255, 255);
