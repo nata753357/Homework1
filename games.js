@@ -49,6 +49,6 @@
     if (userAnswer === result) {
         alert (`Это верный ответ!`)
     } else {
-        alert (`Ошибка!`)
+        alert (`Игра отменена!`)
     }
 }
