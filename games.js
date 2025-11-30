@@ -48,7 +48,5 @@
     
     if (userAnswer === result) {
         alert (`Это верный ответ!`)
-    } else {
-        alert (`Игра отменена!`)
     }
 }
