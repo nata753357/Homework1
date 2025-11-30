@@ -15,6 +15,7 @@
      }
  }
      
+
  function startGame2 () {
     const operators = ['+', '-', '*', '/' ];
     const operator = operators [Math.floor (Math.random() * operators.length)];
@@ -47,11 +48,11 @@
     }
     
     if (userAnswer === result) {
-        alert (`Это верный ответ!`)
-    }
+        alert (`Верный ответ!`)
+    } 
 
-    if (userAnswer === null || userAnswer === "") {
-        alert ('Игра отменена');
-        return;
+     if (userAnswer === null || userAnswer === "") {
+         alert ('Игра отменена');
+         return;
     }
 }
