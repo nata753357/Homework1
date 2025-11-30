@@ -49,4 +49,9 @@
     if (userAnswer === result) {
         alert (`Это верный ответ!`)
     }
+
+    if (userAnswer === null || userAnswer === "") {
+        alert ('Игра отменена');
+        return;
+    }
 }
