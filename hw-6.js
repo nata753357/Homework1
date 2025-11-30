@@ -27,13 +27,14 @@
 
  const arr0 = [];
 
- for (let i = 0; i < 3; i++) {
-     const arr2 = [];
-     for (let i = 0; i < 3; i ++) {
-         arr0.push(1);
+for (let i = 0; i < 3; i++) {
+    const arr2 = [];
+for (let i = 0; i < 3; i ++) {
+    arr2.push(1);
      }
-     arr0.push(arr2)
+    arr0.push(arr2);
  }
+
  console.log(arr0);
 
 // Задание 5
@@ -107,35 +108,26 @@ console.log(result);
 
 // Задание 14
 
- function randomNumber() {
-     return Math.floor (Math.random () * 10);
- }
- const arr9 = [];
+    const originalArray = [];  
+    for (let i = 0; i < 10; i++) {  
 
- for (let i = 0; i < 10; i++) {
-     arr9.push (randomNumber());
- }
- console.log (arr9);
+    originalArray.push(Math.floor(Math.random() * 10));  
+}  
+    const evenNumbers = originalArray.filter(number => number % 2 === 0);  
+  
+    console.log(originalArray);  
+    console.log(evenNumbers);  
 
- const evenArr = [];
+// Задание 15
 
- for ( let i = 0; i < arr9.length; i++) {
-     if (arr9 [i] % 2 === 0) {
-         evenArr.push (arr9 [i]);
-     }
- }
- console.log (evenArr);
+  function randomNumber() {
+      return Math.floor (Math.random () * 10);
+  }
+  const arr10 = [];
 
-// Задание 
+  for (let i = 0; i < 6; i++) {
+      arr10.push (randomNumber());
+  }
+  console.log(arr10);
 
- function randomNumber() {
-     return Math.floor (Math.random () * 10);
- }
- const arr10 = [];
-
- for (let i = 0; i < 10; i++) {
-     arr10.push (randomNumber());
- }
- console.log(arr10);
-
- console.log(arr10.reduce ((a,b) => a + b) / arr10.length);
+  console.log(arr10.reduce ((a,b) => a + b) / arr10.length);
