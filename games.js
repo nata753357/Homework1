@@ -44,15 +44,18 @@
         case '/':
             userAnswer = +prompt (`Разделите ${a} и ${b}`);
             result = a / b;
-            break;
-    }
-    
-    if (userAnswer === result) {
-        alert (`Верный ответ!`)
-    } 
-
-     if (userAnswer === null || userAnswer === "") {
-         alert ('Игра отменена');
-         return;
-    }
+            break; 
 }
+
+     if (userAnswer === result) {
+        alert (`Верный ответ!`) 
+    } else {
+        alert (`Ответ не верный.`)
+        }
+     if (confirm ('Отменить игру?')) {
+     } 
+     
+    }
+
+     
+
