@@ -46,16 +46,12 @@
             result = a / b;
             break; 
 }
-
-     if (userAnswer === result) {
-        alert (`Верный ответ!`) 
+   
+    if (userAnswer === result) {
+        alert (`Верный ответ!`); 
     } else {
-        alert (`Ответ не верный.`)
-        }
-     if (confirm ('Отменить игру?')) {
-     } 
-     
+        alert (`Ответ не верный`);
+        alert (`Отменить игру?`);
     }
-
-     
+ }
 
