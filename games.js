@@ -52,21 +52,17 @@
             break;
     }
 
-    if (userAnswer === null || isNaN(userAnswer)) {
-        alert('Игра отменена');
-        return;
-    }
-
     if (userAnswer === result) {
         alert('Верный ответ!');
     } else {
-        alert(`Ответ неверный. Правильный ответ: ${result}`);
+        alert(`Ответ неверный`);
+        alert('Игра отменена');
     }
-        
-        const continueGame = confirm('Хотите попробовать еще раз?');
-        if (!continueGame) {
-            alert('Игра завершена');
-        } else {
-            startGame2(); 
-        }
     }
+
+
+
+
+    
+
+    
