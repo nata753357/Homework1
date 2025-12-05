@@ -52,11 +52,16 @@
             break;
     }
 
-    if (userAnswer === result) {
-        alert('Верный ответ!');
+    if (userAnswer === null) {
+        alert("Игра отменена");
     } else {
-        alert(`Ответ неверный`);
-        alert('Игра отменена');
+       let userAnswerNumber = (userAnswer);
+    
+    if (userAnswerNumber === result) {
+        alert('Верно!');
+    } else {
+        alert(`Ответ неверный: ${result}`);
+    }
     }
  }
 
