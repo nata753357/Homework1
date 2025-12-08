@@ -15,7 +15,7 @@
  }
      
  function startGame2() {
-    const operators = ['+', '-', '*', '/'];
+    let operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
     let a, b, result;
     let userAnswer;
@@ -23,12 +23,12 @@
     a = Math.floor(Math.random() * 10) + 1;
     b = Math.floor(Math.random() * 10) + 1;
 
-    if (operator === '/') {
+     if (operator === '/') {
         
         result = a * b; 
         a = result; 
         result = a / b; 
-    }
+    }   
 
     switch (operator) {
         case '+':
@@ -52,18 +52,25 @@
             break;
     }
 
-    if (userAnswer === null) {
+     if (userAnswer === null) {
         alert("Игра отменена");
+        return;
+     } else {
+
+    let number = +userAnswer;
+
+    if (number === result) {
+        alert(`Верно!`);
     } else {
-       let userAnswerNumber = (userAnswer);
-    
-    if (userAnswerNumber === result) {
-        alert('Верно!');
-    } else {
-        alert(`Ответ неверный: ${result}`);
+        alert(`Не верно!`);
     }
     }
  }
+ 
+ 
+
+    
+ 
 
 
     
