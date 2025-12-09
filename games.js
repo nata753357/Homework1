@@ -59,6 +59,11 @@
 
     let number = +userAnswer;
 
+    if (isNaN(number)) {
+        alert ("Введено не число");
+        return;
+    }
+
     if (number === result) {
         alert(`Верно!`);
     } else {
