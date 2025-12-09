@@ -32,22 +32,22 @@
 
     switch (operator) {
         case '+':
-            userAnswer = +prompt(`Сложите ${a} и ${b}`);
+            userAnswer = prompt(`Сложите ${a} и ${b}`);
             result = a + b;
             break;
 
         case '-':
-            userAnswer = +prompt(`Вычтите ${a} и ${b}`);
+            userAnswer = prompt(`Вычтите ${a} и ${b}`);
             result = a - b;
             break;
 
         case '*':
-            userAnswer = +prompt(`Умножьте ${a} и ${b}`);
+            userAnswer = prompt(`Умножьте ${a} и ${b}`);
             result = a * b;
             break;
 
         case '/':
-            userAnswer = +prompt(`Разделите ${a} на ${b}`);
+            userAnswer = prompt(`Разделите ${a} на ${b}`);
             result = a / b;
             break;
     }
