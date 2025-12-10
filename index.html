@@ -9,7 +9,7 @@
 </head>
 <body>
 
- <script src=""></script>
+ <script src="hw-6.js"></script>
 
 <section class="top center">
     <div class="top__box-container">
@@ -17,7 +17,9 @@
     <h1 class="top__title">Добро пожаловать на мой сайт мини-игр</h1>
     <p class="top__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b>«Поехали!</b>» и <b>приступай</b>.</p>
 </div>
+<a href="#Allgames" class="top__btn">
     <button class="top-btn top-btn_text">Поехали!</button>
+</a>
     </div>
 
 <div class="overflow-hidden">
@@ -49,10 +51,10 @@
     </div>
 </div>
 
-<section class="top2-box center">
+<section  id="Allgames" class="top2-box center">
     <div class="top2-box__content">
 
-        <article class="top2-box__card">
+        <a href="#game1" class="top2-box__card">
         <img src="img/picture1.jpg" alt="product" class="top2-box__img">
         <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -60,9 +62,9 @@
         <p class="top2-box__description">Угадай число</p>    
         </div>
         </div>
-        </article>
+        </a>
 
-        <article class="top2-box__card2">
+        <a href="#game2" class="top2-box__card2">
         <img src="img/picture2.jpg" alt="product" class="top2-box__img">
         <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -70,9 +72,9 @@
         <p class="top2-box__description top2-box__description_2">Простая арифметика</p>    
         </div>
         </div>
-        </article>
+        </a>
        
-        <article class="top2-box__card">
+        <a href="#" class="top2-box__card">
         <img src="img/picture3.jpg" alt="product" class="top2-box__img">
          <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -80,9 +82,9 @@
         <p class="top2-box__description">Переверни текст</p>    
         </div>
         </div>
-        </article>
+        </a>
 
-        <article class="top2-box__card3">
+        <a href="#" class="top2-box__card3">
         <img src="img/picture4.jpg" alt="product" class="top2-box__img">
         <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -90,9 +92,9 @@
         <p class="top2-box__description top2-box__description_3">Камень, ножницы, бумага</p>    
         </div>
         </div>
-        </article>
+        </a>
 
-        <article class="top2-box__card2">
+        <a href="#" class="top2-box__card2">
         <img src="img/picture5.jpg" alt="product" class="top2-box__img">
          <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -100,9 +102,9 @@
         <p class=" top2-box__description top2-box__description_2">Простая викторина</p>    
         </div>
         </div>
-        </article>
+        </a>
 
-        <article class="top2-box__card3">
+        <a href="#" class="top2-box__card3">
         <img src="img/picture6.jpg" alt="product" class="top2-box__img">
          <div class="top2-box__box-info">
         <div class="top2-box__info">
@@ -110,7 +112,7 @@
         <p class="top2-box__description top2-box__description_3">Генератор случайных цветов</p>    
         </div>
         </div>
-        </article>  
+        </a>  
     </div>   
 </section>  
 </div>  
@@ -136,7 +138,7 @@
         <img src="img/picture1.jpg" alt="product" class="top3-box__img">
         <div class="top3-box__box-info">
         <div class="top3-box__info">
-        <h3 class="top3-box__subtitle">Угадай число</h3>
+        <h3 id="game1" class="top3-box__subtitle">Угадай число</h3>
         <p class="top3-box__description">Попробуй угадать случайное число от 1 до 100.</p> 
         <button class="top3-box__btn" onclick="startGame1()">Играть!</button>
         </div>
@@ -147,7 +149,7 @@
         <img src="img/picture2.jpg" alt="product" class="top3-box__img">
         <div class="top3-box__box-info2">
         <div class="top3-box__info2">
-        <h3 class="top3-box__subtitle">Простая арифметика</h3>
+        <h3 id="game2" class="top3-box__subtitle">Простая арифметика</h3>
         <p class="top3-box__description">Попробуй решить простые арифметические задачи.</p> 
         <button class="top3-box__btn" onclick="startGame2()">Играть!</button> 
         </div>

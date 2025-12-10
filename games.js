@@ -1,5 +1,4 @@
-      
-  function startGame1() {
+ function startGame1() {
      let randomNumber = Math.floor(Math.random() * 100) + 1;
      while (true) {
          let guessNumber = prompt("Угадай число от 1 до 100");
@@ -15,40 +14,70 @@
      }
  }
      
- function startGame2 () {
-    const operators = ['+', '-', '*', '/' ];
-    const operator = operators [Math.floor (Math.random() * operators.length)];
+ function startGame2() {
+    let operators = ['+', '-', '*', '/'];
+    const operator = operators[Math.floor(Math.random() * operators.length)];
     let a, b, result;
     let userAnswer;
 
-    a = Math.floor (Math.random() * 10) + 1;
-    b = Math.floor (Math.random() * 10) + 1;
+    a = Math.floor(Math.random() * 10) + 1;
+    b = Math.floor(Math.random() * 10) + 1;
+
+     if (operator === '/') {
+        
+        result = a * b; 
+        a = result; 
+        result = a / b; 
+    }   
 
     switch (operator) {
         case '+':
-            userAnswer = +prompt (`Сложите ${a} и ${b}`);
+            userAnswer = prompt(`Сложите ${a} и ${b}`);
             result = a + b;
             break;
 
         case '-':
-            userAnswer = +prompt (`Вычтите ${a} и ${b}`);
+            userAnswer = prompt(`Вычтите ${a} и ${b}`);
             result = a - b;
             break;
 
         case '*':
-            userAnswer = +prompt (`Умножьте ${a} и ${b}`);
+            userAnswer = prompt(`Умножьте ${a} и ${b}`);
             result = a * b;
             break;
 
         case '/':
-            userAnswer = +prompt (`Разделите ${a} и ${b}`);
+            userAnswer = prompt(`Разделите ${a} на ${b}`);
             result = a / b;
             break;
     }
 
-    if (userAnswer === result) {
-        alert (`Это верный ответ!`)
-    } else {
-        alert (`Ошибка!`)
+     if (userAnswer === null) {
+        alert("Игра отменена");
+        return;
+     } else {
+
+    let number = +userAnswer;
+
+    if (isNaN(number)) {
+        alert ("Введено не число");
+        return;
     }
-}
+
+    if (number === result) {
+        alert(`Верно!`);
+    } else {
+        alert(`Не верно!`);
+    }
+    }
+ }
+ 
+ 
+
+    
+ 
+
+
+    
+
+    

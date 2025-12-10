@@ -41,13 +41,16 @@ body {
   margin-bottom: 48px;
 }
 
+.top__btn {
+  text-decoration: none;
+}
+
 .top-btn {
   width: 247px;
   height: 66px;
   border: 1px solid #202027;
   border-radius: 60px;
   background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
 }
 .top-btn_text {
   color: rgb(255, 255, 255);
@@ -149,6 +152,7 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   transition: transform 0.5s;
+  text-decoration: none;
 }
 
 .top2-box__card:hover {
@@ -178,8 +182,6 @@ body {
 
 .top2-box__title {
   background: #F7F7F7;
-  width: 108px;
-  height: 36px;
   font-weight: 500;
   font-size: 16px;
   padding-left: 16px;
@@ -187,6 +189,7 @@ body {
   padding-top: 8px;
   padding-bottom: 10px;
   border-radius: 52.58px;
+  color: rgb(32, 32, 39);
 }
 
 .top2-box__title_text {
@@ -198,6 +201,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
+  color: rgb(32, 32, 39);
 }
 
 .top2-box__card2 {
@@ -211,6 +215,7 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   transition: transform 0.5s;
+  text-decoration: none;
 }
 
 .top2-box__card2:hover {
@@ -220,7 +225,6 @@ body {
 .top2-box__card3 {
   background: rgb(255, 255, 255);
   height: 551px;
-  width: 378px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -229,6 +233,7 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   transition: transform 0.5s;
+  text-decoration: none;
 }
 
 .top2-box__card3:hover {
