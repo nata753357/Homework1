@@ -71,10 +71,19 @@
     }
     }
  }
- 
+
  function startGame3() {
-    let str = ''
+    let text = String(prompt('Введите текст')).split();
+    let reverseText = text.reverse();
+    let joinText = reverseText.join("");
+    return joinText;
  }
+    alert(game3);
+
+
+ 
+
+
       
     
  
