@@ -43,4 +43,16 @@ console.log (Math.max (52,53,49,77,21,32));
 
  console.log (getRandomNumber (10));
 
+ // Задание 7
+
+ function getRandomInt (min, max) {
+    return Math.floor (Math.random () * (max - min + 1)) + min;
+ }
+
+ console.log (getRandomInt (1,10));
+
+ // Задание 8
+
+ console.log (new Date ()); 
+
  
