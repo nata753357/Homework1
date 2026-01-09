@@ -55,4 +55,27 @@ console.log (Math.max (52,53,49,77,21,32));
 
  console.log (new Date ()); 
 
- 
+ // Задание 9
+
+ const currentDate = new Date ();
+ currentDate.setDate (currentDate.getDate () + 73);
+
+ console.log (currentDate);
+
+ // Задание 10
+
+ function formatDate (date) {
+    const days = ["Воскресенье", "Понедельние", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+    const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+    const year = date.getFullYear();
+    const day = date.getDate();
+    const month = date.getMonth();
+    const dayOfWeek = days [date.getDay()];
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+
+    return `Дата:${day} ${months[month]} ${year} - это ${dayOfWeek}. Время: ${hours} : ${minutes} : ${seconds}`;
+ }
+
+ console.log (formatDate (newDate ()));
