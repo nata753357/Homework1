@@ -78,4 +78,4 @@ console.log (Math.max (52,53,49,77,21,32));
     return `Дата:${day} ${months[month]} ${year} - это ${dayOfWeek}. Время: ${hours} : ${minutes} : ${seconds}`;
  }
 
- console.log (formatDate (newDate ())); */
+ console.log (formatDate (new Date ())); */

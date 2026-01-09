@@ -72,6 +72,12 @@
     }
  }
  
+ function startGame3() {
+    let str = ''
+ }
+      
+    
+ 
  
 
     
