@@ -97,26 +97,29 @@
         },
         {
              question: "Сколько дней в году?",
-            options: ["1. Пятьсот", "2. Триста шестьдесят пять", "3. Четыреста"],
+            options: ["1. 500", "2. 365", "3. 400"],
             correctAnswer: 2  
         }
     ];
 
-    let num = 0
-    for ( i = 0; i < quiz.length; i++) {
-        let quizQuest = Number(prompt(`Выбери правильный ответ? ${quiz[i].question} ${quiz[i].options}`));
-            if (quizQuest === quiz[i].correctAnswer) {
-             num++;
-                alert("Вы ответили верно");
-            }else{
-                alert ("Не верно");
-            }
-    }
 
-         alert(i);
+let score = 0;
+
+for (let i = 0; i < quiz.length; i++) {
+    let questionText = `Вопрос ${i + 1}: ${quiz[i].question}\n\n`;
+    questionText += quiz[i].options.join('\n');
+    
+    let userAnswer = prompt(questionText);
+    
+    if (parseInt(userAnswer) === quiz[i].correctAnswer) {
+        score++
+    }
+}
+
+alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
+
 }
        
-
 
    
 
