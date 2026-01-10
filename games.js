@@ -71,6 +71,67 @@
     }
     }
  }
+
+ function startGame3() {
+    let text = prompt('Введите текст');
+    let reverseText = text.split('').reverse().join('');
+        alert (reverseText);
+ }
+
+ function startGame5() {
+    const quiz = [
+        {
+            question: "Какой цвет неба?",
+            options: ["1. Красный", "2. Синий", "3. Зеленый"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Сколько дней в неделе?",
+            options: ["1. Шесть", "2. Семь", "3. Восемь"],
+            correctAnswer: 2
+        },
+        {
+            question: "Сколько у человека пальцев на одной руке?",
+            options: ["1. Четыре", "2. Пять", "3. Шесть"],
+            correctAnswer: 2
+        },
+        {
+             question: "Сколько дней в году?",
+            options: ["1. 500", "2. 365", "3. 400"],
+            correctAnswer: 2  
+        }
+    ];
+
+
+let score = 0;
+
+for (let i = 0; i < quiz.length; i++) {
+    let questionText = `Вопрос ${i + 1}: ${quiz[i].question}\n\n`;
+    questionText += quiz[i].options.join('\n');
+    
+    let userAnswer = prompt(questionText);
+    
+    if (parseInt(userAnswer) === quiz[i].correctAnswer) {
+        score++
+    }
+}
+
+alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
+
+}
+       
+
+   
+
+
+    
+
+
+ 
+
+
+      
+    
  
  
 
