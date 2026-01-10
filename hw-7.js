@@ -1,4 +1,4 @@
-/*// Задание 1
+// Задание 1
 
 let str = 'js';
 str = str.toUpperCase ();
@@ -78,4 +78,4 @@ console.log (Math.max (52,53,49,77,21,32));
     return `Дата:${day} ${months[month]} ${year} - это ${dayOfWeek}. Время: ${hours} : ${minutes} : ${seconds}`;
  }
 
- console.log (formatDate (new Date ())); */
+ console.log (formatDate (new Date ())); 
