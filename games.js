@@ -73,12 +73,11 @@
  }
 
  function startGame3() {
-    let text = String(prompt('Введите текст')).split();
-    let reverseText = text.reverse();
-    let joinText = reverseText.join("");
-    return joinText;
+    let text = prompt('Введите текст');
+    let reverseText = text.split('').reverse().join('');
+        alert (reverseText);
  }
-    alert(game3);
+    
 
 
  
