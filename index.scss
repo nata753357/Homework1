@@ -56,6 +56,7 @@ body {
     border: 1px solid #202027;
     border-radius: 60px;
     background: rgba(32, 32, 39, 1);
+    margin-bottom: 185px;
 
     &_text {
         color: rgba(255, 255, 255, 1);
@@ -69,6 +70,31 @@ body {
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
     }
+}
+
+.navbar {
+    background-color: rgba(188, 236, 48, 1);
+    height: 90px;
+    width: 3220px;
+    margin-top: auto;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(img/Starnarbar.jpg);
+    background-position: 272px 27px;
+    background-repeat: no-repeat;
+    gap: 51px;
+    
+        &__item {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 110%;
+            text-align: left;
+            text-transform: uppercase;
+        }
 }
 
 .bigstar {
