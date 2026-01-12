@@ -39,3 +39,15 @@ const people1 = [
 ];
 
 console.log(filter(people1, isMale));
+
+// Задание 3
+
+const intervalId = setInterval(() => {
+    console.log ('Hello');
+}, 3000);
+
+setTimeout (() => {
+    clearInterval (intervalId);
+    console.log ('Время прошло');
+}, 7000);
+
