@@ -51,3 +51,12 @@ setTimeout (() => {
     console.log ('Время прошло');
 }, 7000);
 
+// Задание 4
+
+function delayForSecond (callback) {
+    setTimeout (callback, 1000);
+}
+
+delayForSecond (function () {
+    console.log ('Привет, Глеб!');
+})
