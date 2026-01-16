@@ -9,38 +9,12 @@ body {
   font-style: normal;
 }
 
-.navbar {
-  background-color: rgb(188, 236, 48);
-  height: 90px;
-  width: 3220px;
-  margin-top: auto;
-  padding-left: 19px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-image: url(img/Starnarbar.jpg);
-  background-position: 232px 27px;
-  background-repeat: no-repeat;
-  gap: 51px;
-}
-.navbar__item {
-  color: rgb(32, 32, 39);
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 110%;
-  text-align: left;
-  text-transform: uppercase;
-}
-
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
 
 .top {
-  height: 800px;
-  background-image: url(img/top.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -86,6 +60,38 @@ body {
 .top-btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+.top-navbar {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  background: #E1FF8F;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: rgb(188, 236, 48);
+  height: 90px;
+  width: 3220px;
+  padding-left: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(img/Starnavbar.png);
+  background-position: 232px 27px;
+  background-repeat: no-repeat;
+  gap: 51px;
+  margin-top: auto;
+}
+.navbar__item {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .bigstar {
