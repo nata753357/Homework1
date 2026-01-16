@@ -94,6 +94,10 @@ body {
   text-transform: uppercase;
 }
 
+.navbar::after {
+  background-image: right;
+}
+
 .bigstar {
   position: absolute;
   opacity: 1;
