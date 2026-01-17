@@ -111,10 +111,6 @@ body {
   background-position: center;
 }
 
-.navbar::after {
-  background-image: right;
-}
-
 .bigstar {
   position: absolute;
   opacity: 1;
