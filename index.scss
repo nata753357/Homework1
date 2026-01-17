@@ -91,7 +91,6 @@ body {
     flex-wrap: wrap;
     position: relative;
     padding: 0 20px;
-  
 
     &__item {
         color: rgba(32, 32, 39, 1);
@@ -109,7 +108,7 @@ body {
     &__item:not(:last-child)::after {
         content: '';
         position: absolute;
-        right: -46px; 
+        right: -46px;
         top: 50%;
         transform: translateY(-50%);
         width: 36px;
@@ -118,7 +117,7 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-}
+    }
 }
 
 .navbar::after {
