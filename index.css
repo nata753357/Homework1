@@ -170,10 +170,18 @@ body {
 
 .top2-box__content {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   -moz-column-gap: 32px;
        column-gap: 32px;
-  row-gap: 32px;
+}
+
+.top2-box__column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+  max-width: calc(33.333% - 32px);
 }
 
 .top2-box__card {
