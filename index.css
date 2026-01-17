@@ -15,8 +15,6 @@ body {
 }
 
 .top {
-  height: 800px;
-  background-image: url(img/top.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,7 +49,6 @@ body {
   border: 1px solid #202027;
   border-radius: 60px;
   background: rgb(32, 32, 39);
-  margin-bottom: 185px;
 }
 .top-btn_text {
   color: rgb(255, 255, 255);
@@ -65,19 +62,28 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.top-navbar {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  background: #E1FF8F;
+  overflow: hidden;
+}
+
 .navbar {
   background-color: rgb(188, 236, 48);
   height: 90px;
   width: 3220px;
-  margin-top: auto;
   padding-left: 19px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: url(img/Starnarbar.jpg);
-  background-position: 272px 27px;
   background-repeat: no-repeat;
   gap: 51px;
+  margin-top: auto;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 20px;
 }
 .navbar__item {
   color: rgb(32, 32, 39);
@@ -87,6 +93,22 @@ body {
   line-height: 110%;
   text-align: left;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+}
+.navbar__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -46px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background-image: url(img/Starnavbar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bigstar {
@@ -161,10 +183,18 @@ body {
 
 .top2-box__content {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   -moz-column-gap: 32px;
        column-gap: 32px;
-  row-gap: 32px;
+}
+
+.top2-box__column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+  max-width: calc(33.333% - 32px);
 }
 
 .top2-box__card {
