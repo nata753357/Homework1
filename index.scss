@@ -85,11 +85,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url(img/Starnavbar.png);
-    background-position: 232px 27px;
     background-repeat: no-repeat;
     gap: 51px;
     margin-top: auto;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 20px;
+  
 
     &__item {
         color: rgba(32, 32, 39, 1);
@@ -99,7 +101,24 @@ body {
         line-height: 110%;
         text-align: left;
         text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        padding: 0 15px;
     }
+
+    &__item:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        right: -46px; 
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36px;
+        height: 36px;
+        background-image: url(img/Starnavbar.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+}
 }
 
 .navbar::after {
