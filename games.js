@@ -78,6 +78,48 @@
         alert (reverseText);
  }
 
+ function startGame4() {
+    const player = prompt("Выберите: камень, ножницы или бумага");
+    
+    if (player === null || player.trim() === "") {
+        alert("Игра отменена!");
+        return;
+    }
+    
+    const playerChoice = player.toLowerCase().trim();
+    
+    const validChoices = ["камень", "ножницы", "бумага"];
+    if (!validChoices.includes(playerChoice)) {
+        alert("Пожалуйста, введите одно из: камень, ножницы или бумага");
+        startGame4();         return;
+    }
+    
+    const choices = ["камень", "ножницы", "бумага"];
+    const randomIndex = Math.floor(Math.random() * 3);
+    const computer = choices[randomIndex];
+    
+        alert(`Компьютер выбрал: ${computer}`);
+    
+       const winner = {
+        камень: "ножницы",
+        бумага: "камень",
+        ножницы: "бумага",
+    }
+    
+       if (playerChoice === computer) {
+        alert("Ничья!");
+    } else if (winner[playerChoice] === computer) {
+        alert("Вы победили!");
+    } else {
+        alert("Компьютер победил!");
+    }
+    
+        const playAgain = confirm("Хотите сыграть еще раз?");
+    if (playAgain) {
+        startGame4();
+    }
+}
+
  function startGame5() {
     const quiz = [
         {

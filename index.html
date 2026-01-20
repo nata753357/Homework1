@@ -9,8 +9,9 @@
 </head>
 <body>
 
- <script src="hw-7.js"></script>
+ <script src="hw-8.js"></script>
 
+<div class="top-navbar">
 <section class="top center">
     <div class="top__box-container">
 <div class="top__content">
@@ -33,17 +34,17 @@
         <img class="star2" src="img/bigstar1.svg" alt="">
     </div> 
 </div>
+</section>
 
-<nav class="navbar">
+  <nav class="navbar">
     <h2 class="navbar__item">викторина</h2>
     <h2 class="navbar__item">угадай число</h2>
     <h2 class="navbar__item">переверни текст</h2>
     <h2 class="navbar__item">простая арифметика</h2>
     <h2 class="navbar__item">камень, ножницы, бумага</h2>
     <h2 class="navbar__item">генератор случайных цветов</h2>
-</nav>
-
-</section>
+  </nav>
+</div>
 
 <div class="top2 center">
 <div class="top2__content">
@@ -63,33 +64,13 @@
 
 <section  id="Allgames" class="top2-box center">
     <div class="top2-box__content">
-
+      <div class="top2-box__column">
         <a href="#game1" class="top2-box__card">
         <img src="img/picture1.jpg" alt="product" class="top2-box__img">
         <div class="top2-box__box-info">
         <div class="top2-box__info">
         <h3 class="top2-box__title top2-box__title_text">Игра №1</h3>
         <p class="top2-box__description">Угадай число</p>    
-        </div>
-        </div>
-        </a>
-
-        <a href="#game2" class="top2-box__card2">
-        <img src="img/picture2.jpg" alt="product" class="top2-box__img">
-        <div class="top2-box__box-info">
-        <div class="top2-box__info">
-        <h3 class="top2-box__title top2-box__title_text">Игра №2</h3>
-        <p class="top2-box__description top2-box__description_2">Простая арифметика</p>    
-        </div>
-        </div>
-        </a>
-       
-        <a href="#game3" class="top2-box__card">
-        <img src="img/picture3.jpg" alt="product" class="top2-box__img">
-         <div class="top2-box__box-info">
-        <div class="top2-box__info">
-        <h3 class="top2-box__title top2-box__title_text">Игра №3</h3>
-        <p class="top2-box__description">Переверни текст</p>    
         </div>
         </div>
         </a>
@@ -103,26 +84,51 @@
         </div>
         </div>
         </a>
+      </div>
 
-        <a href="#game5" class="top2-box__card2">
+      <div class="top2-box__column">
+        <a href="#game2" class="top2-box__card2">
+        <img src="img/picture2.jpg" alt="product" class="top2-box__img">
+        <div class="top2-box__box-info">
+        <div class="top2-box__info">
+        <h3 class="top2-box__title top2-box__title_text">Игра №2</h3>
+        <p class="top2-box__description top2-box__description_2">Простая арифметика</p>    
+        </div>
+        </div>
+        </a>
+
+         <a href="#game5" class="top2-box__card2">
         <img src="img/picture5.jpg" alt="product" class="top2-box__img">
-         <div class="top2-box__box-info">
+        <div class="top2-box__box-info">
         <div class="top2-box__info">
         <h3 class="top2-box__title top2-box__title_text">Игра №5</h3>
         <p class=" top2-box__description top2-box__description_2">Простая викторина</p>    
         </div>
         </div>
         </a>
+      </div>
 
-        <a href="#" class="top2-box__card3">
+      <div class="top2-box__column">
+        <a href="#game3" class="top2-box__card">
+        <img src="img/picture3.jpg" alt="product" class="top2-box__img">
+        <div class="top2-box__box-info">
+        <div class="top2-box__info">
+        <h3 class="top2-box__title top2-box__title_text">Игра №3</h3>
+        <p class="top2-box__description">Переверни текст</p>    
+        </div>
+        </div>
+        </a>
+
+        <a href="#game6" class="top2-box__card3">
         <img src="img/picture6.jpg" alt="product" class="top2-box__img">
-         <div class="top2-box__box-info">
+        <div class="top2-box__box-info">
         <div class="top2-box__info">
         <h3 class="top2-box__title top2-box__title_text">Игра №6</h3>
         <p class="top2-box__description top2-box__description_3">Генератор случайных цветов</p>    
         </div>
         </div>
         </a>  
+      </div>
     </div>   
 </section>  
 </div>  
@@ -183,7 +189,7 @@
         <div class="top3-box__info2">  
         <h3 id="game4" class="top3-box__subtitle">Камень, ножницы, бумага</h3>
         <p class="top3-box__description">Сыграй в популярную игру против компьютера.</p> 
-        <button class="top3-box__btn"  onclick="startGame4()">Играть!</button> 
+        <button class="top3-box__btn" onclick="startGame4()">Играть!</button> 
         </div> 
         </div>
         </article>
@@ -194,7 +200,7 @@
         <div class="top3-box__info">
         <h3 id="game5" class="top3-box__subtitle">Простая викторина</h3>
         <p class="top3-box__description">Отвечай на вопросы викторины с вариантами ответов.</p> 
-        <button class="top3-box__btn"  onclick="startGame5()">Играть!</button> 
+        <button class="top3-box__btn" onclick="startGame5()">Играть!</button> 
         </div>
         </div>
         </article>
@@ -205,7 +211,7 @@
         <div class="top3-box__info2"> 
         <h3 id="game6" class="top3-box__subtitle">Генератор случайных цветов</h3>
         <p class="top3-box__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p> 
-        <button class="top3-box__btn"  onclick="startGame6()">Играть!</button> 
+        <button class="top3-box__btn" onclick="startGame6()">Играть!</button> 
         </div>
         </div>
         </article>
