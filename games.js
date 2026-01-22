@@ -161,9 +161,28 @@ for (let i = 0; i < quiz.length; i++) {
 alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
 
 }
-       
 
-   
+   function startGame6() {
+    const hexChars = '0123456789ABCDEF';
+
+  let color = '#';
+  let counter = 0;
+  
+  while (counter < 6) {
+    color += hexChars[Math.floor(Math.random() * hexChars.length)];
+    counter++;
+  }
+  
+  return color;
+}
+  console.log(startGame6()); 
+
+
+
+
+ 
+  
+
 
 
     
