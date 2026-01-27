@@ -163,19 +163,15 @@ alert(`Викторина завершена!\nВы ответили прави�
 }
 
    function startGame6() {
-    const hexChars = '0123456789ABCDEF';
+        const startGame6 = '#' + Math.floor(Math.random() * 16777215).toString(16);
+        document.getElementById('game6').style.color = startGame6;
+   }; 
 
-  let color = '#';
-  let counter = 0;
+
+   
   
-  while (counter < 6) {
-    color += hexChars[Math.floor(Math.random() * hexChars.length)];
-    counter++;
-  }
-  
-  return color;
-}
-  console.log(startGame6()); 
+
+
 
 
 
