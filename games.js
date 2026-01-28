@@ -162,14 +162,13 @@ alert(`Викторина завершена!\nВы ответили прави�
 
 }
 
-   function startGame6() {
-        const startGame6 = '#' + Math.floor(Math.random() * 16777215).toString(16);
-        document.getElementById('game6').style.color = startGame6;
-   }; 
-
-
    
-  
+
+    
+   
+    
+     
+   
 
 
 
