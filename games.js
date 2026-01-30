@@ -161,9 +161,22 @@ for (let i = 0; i < quiz.length; i++) {
 alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
 
 }
-       
-
    
+   function startGame6() {
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+    document.getElementById('background').style.backgroundColor = randomColor;
+} 
+     
+   
+
+
+
+
+
+
+ 
+  
+
 
 
     
