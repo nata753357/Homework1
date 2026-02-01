@@ -503,12 +503,6 @@ body {
   .star2 {
     display: none;
   }
-  .bigstar {
-    width: 35px;
-    height: 35px;
-    top: 97px;
-    left: 37px;
-  }
 }
 @media (min-width: 768px) and (max-width: 833px) {
   .center {
