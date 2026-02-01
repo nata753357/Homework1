@@ -45,6 +45,11 @@
         &__column {
             max-width: calc(50% - 28px); 
         }
+        &__column_3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 
     .bigstar3 {
@@ -64,12 +69,10 @@
             flex-direction: row-reverse;
             row-gap: 28px;
         }
-        &__box-info {
-            padding-left: 28px;
-            padding-right: 28px;
-            padding-top: 28px;
-            padding-bottom: 28px;
+        &__img {
+            width: 350px;
         }
+       
     }
 
     .bigstar5 {
@@ -80,7 +83,7 @@
         display: none;
     }
 
-    .bigstar4 {
+    .bigstar6 {
         display: none;
     }
 

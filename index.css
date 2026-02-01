@@ -531,6 +531,11 @@ body {
   .top2-box__column {
     max-width: calc(50% - 28px);
   }
+  .top2-box__column_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   .bigstar3 {
     display: none;
   }
@@ -544,11 +549,8 @@ body {
     flex-direction: row-reverse;
     row-gap: 28px;
   }
-  .top3-box__box-info {
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 28px;
-    padding-bottom: 28px;
+  .top3-box__img {
+    width: 350px;
   }
   .bigstar5 {
     display: none;
@@ -556,7 +558,7 @@ body {
   .littlestar4 {
     display: none;
   }
-  .bigstar4 {
+  .bigstar6 {
     display: none;
   }
   .littlestar5 {
