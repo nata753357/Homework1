@@ -495,6 +495,18 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: calc(50% - 171px);
@@ -660,17 +672,5 @@ body {
   .top4__content_text {
     font-size: 16px;
     padding-top: 40px;
-  }
-}
-@media (max-width: 1024px) {
-  .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
-  }
-}
-@media (min-width: 768px) and (max-width: 833px) {
-  .center {
-    padding-left: 24px;
-    padding-right: 24px;
   }
 }/*# sourceMappingURL=index.css.map */
