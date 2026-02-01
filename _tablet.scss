@@ -3,6 +3,17 @@
         padding-left: calc(50% - 393px);
         padding-right: calc(50% - 393px);
     }
+
+    .star2 {
+        display: none;
+    }
+
+    .bigstar {
+        width: 35px;
+        height: 35px;
+        top: 97px;
+        left: 37px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 833px) {
