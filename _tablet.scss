@@ -8,6 +8,34 @@
         display: none;
     }
 
+    .top {
+        background-image: url(img/tabbigstar4.svg);
+        background-position: right 0px;
+        background-size: inherit;
+        background-color: #E1FF8F;
+
+        &__box-container {
+            padding-top: 166px;
+        }
+
+        &__title {
+            max-width: 569px;
+            text-align: center;
+        }
+
+        &__text {
+            width: 469px;
+        }
+    }
+
+    .littlestar2 {
+        right: 156px;
+    }
+
+    .bigstar2 {
+        right: 63px;
+    }
+
     
 }
 
