@@ -167,7 +167,7 @@ alert(`Викторина завершена!\nВы ответили прави�
     document.getElementById('background').style.backgroundColor = randomColor;
 } 
      
-   
+
 
 
 

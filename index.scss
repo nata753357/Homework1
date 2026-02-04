@@ -77,11 +77,16 @@ body {
     overflow: hidden;
 }
 
+.navbar-container {
+    width: 100%;
+    overflow: hidden; 
+    margin-top: auto;
+}
+
 .navbar {
     background-color: rgba(188, 236, 48, 1);
     height: 90px;
     width: 3220px;
-    padding-left: 19px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,7 +96,9 @@ body {
     flex-wrap: wrap;
     position: relative;
     padding: 0 20px;
-
+    animation: scroll-left 12s linear infinite;
+    white-space: nowrap; 
+   
     &__item {
         color: rgba(32, 32, 39, 1);
         font-family: Montserrat;
@@ -118,6 +125,15 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% + 100vw));
+  }
 }
 
 .bigstar {
