@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const targetElement = document.querySelector(targetId);
       
       if (targetElement) {
-        // Рассчитываем положение с учетом возможного фиксированного меню
-        const headerOffset = 100; // Настройте этот отступ под вашу шапку
+        const headerOffset =180; 
         const elementPosition = targetElement.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
         
