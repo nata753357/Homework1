@@ -63,6 +63,11 @@
     .littlestar3 {
         display: none;
     }
+
+    .top3 {
+        height: 3100px;
+    }
+
     .top3-box {
 
         &__content {
@@ -70,9 +75,14 @@
             row-gap: 28px;
         }
         &__img {
-            width: 350px;
+            width: 400px;
         }
-       
+        &__box-info {
+            max-width: 300px;
+        }
+        &__box-info2 {
+            max-width: 300px;
+        }
     }
 
     .bigstar5 {

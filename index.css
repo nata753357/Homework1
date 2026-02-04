@@ -545,12 +545,21 @@ body {
   .littlestar3 {
     display: none;
   }
+  .top3 {
+    height: 3100px;
+  }
   .top3-box__content {
     flex-direction: row-reverse;
     row-gap: 28px;
   }
   .top3-box__img {
-    width: 350px;
+    width: 400px;
+  }
+  .top3-box__box-info {
+    max-width: 300px;
+  }
+  .top3-box__box-info2 {
+    max-width: 300px;
   }
   .bigstar5 {
     display: none;
