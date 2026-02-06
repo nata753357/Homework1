@@ -1,19 +1,34 @@
- function startGame1() {
-     let randomNumber = Math.floor(Math.random() * 100) + 1;
-     while (true) {
-         let guessNumber = prompt("Угадай число от 1 до 100");
-         guessNumber = Number(guessNumber);
-         if (guessNumber === randomNumber) {
-             alert("Поздравляю, ты угадал число!");
-             break;
-         } else if (guessNumber > randomNumber) {
-             alert("Твое число больше загаданного, попробуй еще!");
-         } else {
-             alert("Твое число меньше загаданного, попробуй еще!");
-         }
-     }
- }
-     
+  function startGame1() {
+    let randomNumber = Math.floor(Math.random() * 100) + 1;
+    
+    while (true) {
+        let guessInput = prompt("Угадай число от 1 до 100");
+        
+        
+        if (guessInput === null) {
+            alert("Игра отменена. Загаданное число было: " + randomNumber);
+            return; 
+        }
+        
+        let guessNumber = Number(guessInput);
+        
+        
+        if (isNaN(guessNumber) || guessNumber < 1 || guessNumber > 100) {
+            alert("Пожалуйста, введите число от 1 до 100!");
+            continue; 
+        }
+        
+        if (guessNumber === randomNumber) {
+            alert("Поздравляю, ты угадал число!");
+            break;
+        } else if (guessNumber > randomNumber) {
+            alert("Твое число больше загаданного, попробуй еще!");
+        } else {
+            alert("Твое число меньше загаданного, попробуй еще!");
+        }
+    }
+} 
+
  function startGame2() {
     let operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
