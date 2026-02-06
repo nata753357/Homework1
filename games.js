@@ -161,20 +161,29 @@
 
 
 let score = 0;
+let isCanceled = false;
 
 for (let i = 0; i < quiz.length; i++) {
     let questionText = `Вопрос ${i + 1}: ${quiz[i].question}\n\n`;
     questionText += quiz[i].options.join('\n');
     
     let userAnswer = prompt(questionText);
+
+    if (userAnswer === null) {
+        isCanceled = true;
+        break;
+    }
     
     if (parseInt(userAnswer) === quiz[i].correctAnswer) {
         score++
     }
 }
 
-alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
-
+    if (isCanceled) {
+        alert("Викторина отменена.\nВы ответили правильно на " + score + " из " + quiz.length + " вопросов.");
+    } else {
+        alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
+    }
 }
    
    function startGame6() {
