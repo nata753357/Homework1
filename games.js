@@ -89,6 +89,12 @@
 
  function startGame3() {
     let text = prompt('Введите текст');
+
+    if (text === null) {
+        alert('Игра отменена!');
+        return; 
+    }
+
     let reverseText = text.split('').reverse().join('');
         alert (reverseText);
  }
