@@ -196,7 +196,40 @@ for (let i = 0; i < quiz.length; i++) {
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
     document.getElementById('background').style.backgroundColor = randomColor;
 } 
-     
+
+ /*  let previousColors = [];
+
+  function startGame6() {
+    const background = document.getElementById('background');
+    
+    // Сохраняем текущий цвет
+    previousColors.push(background.style.backgroundColor || '#ffffff');
+    
+    // Генерируем новый случайный цвет
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+    background.style.backgroundColor = randomColor;
+}  
+
+function undoGame6() {
+    if (previousColors.length > 0) {
+        const background = document.getElementById('background');
+        // Возвращаем предыдущий цвет
+        const previousColor = previousColors.pop();
+        background.style.backgroundColor = previousColor;
+        
+        // Опционально: можно показать сообщение
+        console.log('Цвет возвращен к предыдущему');
+    } else {
+        console.log('Нет предыдущих цветов для отмены');
+    }
+}
+
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'z') {
+        undoGame6();
+        event.preventDefault(); // Предотвращаем стандартное поведение Ctrl+Z
+    }
+});  */
 
 
 
