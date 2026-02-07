@@ -70,11 +70,16 @@ body {
   overflow: hidden;
 }
 
+.navbar-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: auto;
+}
+
 .navbar {
   background-color: rgb(188, 236, 48);
   height: 90px;
   width: 3220px;
-  padding-left: 19px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -84,6 +89,8 @@ body {
   flex-wrap: wrap;
   position: relative;
   padding: 0 20px;
+  animation: scroll-left 12s linear infinite;
+  white-space: nowrap;
 }
 .navbar__item {
   color: rgb(32, 32, 39);
@@ -111,6 +118,14 @@ body {
   background-position: center;
 }
 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% + 100vw));
+  }
+}
 .bigstar {
   position: absolute;
   opacity: 1;
@@ -495,6 +510,91 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .star2 {
+    display: none;
+  }
+  .top {
+    background-image: url(img/tabbigstar4.svg);
+    background-position: right 0px;
+    background-size: inherit;
+    background-color: #E1FF8F;
+  }
+  .top__box-container {
+    padding-top: 166px;
+  }
+  .top__title {
+    max-width: 569px;
+    text-align: center;
+  }
+  .littlestar2 {
+    right: 156px;
+  }
+  .bigstar2 {
+    right: 63px;
+  }
+  .top2__title {
+    margin-top: 64px;
+  }
+  .top2-box__content {
+    flex-wrap: wrap;
+  }
+  .top2-box__column {
+    max-width: calc(50% - 28px);
+  }
+  .top2-box__column_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .bigstar3 {
+    display: none;
+  }
+  .bigstar4 {
+    display: none;
+  }
+  .littlestar3 {
+    display: none;
+  }
+  .top3 {
+    height: 3100px;
+  }
+  .top3-box__content {
+    flex-direction: row-reverse;
+    row-gap: 28px;
+  }
+  .top3-box__img {
+    width: 400px;
+  }
+  .top3-box__box-info {
+    max-width: 300px;
+  }
+  .top3-box__box-info2 {
+    max-width: 300px;
+  }
+  .bigstar5 {
+    display: none;
+  }
+  .littlestar4 {
+    display: none;
+  }
+  .bigstar6 {
+    display: none;
+  }
+  .littlestar5 {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: calc(50% - 171px);

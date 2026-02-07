@@ -1,19 +1,34 @@
- function startGame1() {
-     let randomNumber = Math.floor(Math.random() * 100) + 1;
-     while (true) {
-         let guessNumber = prompt("Угадай число от 1 до 100");
-         guessNumber = Number(guessNumber);
-         if (guessNumber === randomNumber) {
-             alert("Поздравляю, ты угадал число!");
-             break;
-         } else if (guessNumber > randomNumber) {
-             alert("Твое число больше загаданного, попробуй еще!");
-         } else {
-             alert("Твое число меньше загаданного, попробуй еще!");
-         }
-     }
- }
-     
+  function startGame1() {
+    let randomNumber = Math.floor(Math.random() * 100) + 1;
+    
+    while (true) {
+        let guessInput = prompt("Угадай число от 1 до 100");
+        
+        
+        if (guessInput === null) {
+            alert("Игра отменена! Загаданное число было: " + randomNumber);
+            return; 
+        }
+        
+        let guessNumber = Number(guessInput);
+        
+        
+        if (isNaN(guessNumber) || guessNumber < 1 || guessNumber > 100) {
+            alert("Пожалуйста, введите число от 1 до 100!");
+            continue; 
+        }
+        
+        if (guessNumber === randomNumber) {
+            alert("Поздравляю, ты угадал число!");
+            break;
+        } else if (guessNumber > randomNumber) {
+            alert("Твое число больше загаданного, попробуй еще!");
+        } else {
+            alert("Твое число меньше загаданного, попробуй еще!");
+        }
+    }
+} 
+
  function startGame2() {
     let operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
@@ -53,7 +68,7 @@
     }
 
      if (userAnswer === null) {
-        alert("Игра отменена");
+        alert("Игра отменена!");
         return;
      } else {
 
@@ -74,6 +89,12 @@
 
  function startGame3() {
     let text = prompt('Введите текст');
+
+    if (text === null) {
+        alert('Игра отменена!');
+        return; 
+    }
+
     let reverseText = text.split('').reverse().join('');
         alert (reverseText);
  }
@@ -146,28 +167,70 @@
 
 
 let score = 0;
+let isCanceled = false;
 
 for (let i = 0; i < quiz.length; i++) {
     let questionText = `Вопрос ${i + 1}: ${quiz[i].question}\n\n`;
     questionText += quiz[i].options.join('\n');
     
     let userAnswer = prompt(questionText);
+
+    if (userAnswer === null) {
+        isCanceled = true;
+        break;
+    }
     
     if (parseInt(userAnswer) === quiz[i].correctAnswer) {
         score++
     }
 }
 
-alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
-
+    if (isCanceled) {
+        alert("Викторина отменена!\nВы ответили правильно на " + score + " из " + quiz.length + " вопросов.");
+    } else {
+        alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
+    }
 }
    
    function startGame6() {
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
     document.getElementById('background').style.backgroundColor = randomColor;
 } 
-     
-   
+
+ /*  let previousColors = [];
+
+  function startGame6() {
+    const background = document.getElementById('background');
+    
+    // Сохраняем текущий цвет
+    previousColors.push(background.style.backgroundColor || '#ffffff');
+    
+    // Генерируем новый случайный цвет
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+    background.style.backgroundColor = randomColor;
+}  
+
+function undoGame6() {
+    if (previousColors.length > 0) {
+        const background = document.getElementById('background');
+        // Возвращаем предыдущий цвет
+        const previousColor = previousColors.pop();
+        background.style.backgroundColor = previousColor;
+        
+        // Опционально: можно показать сообщение
+        console.log('Цвет возвращен к предыдущему');
+    } else {
+        console.log('Нет предыдущих цветов для отмены');
+    }
+}
+
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'z') {
+        undoGame6();
+        event.preventDefault(); // Предотвращаем стандартное поведение Ctrl+Z
+    }
+});  */
+
 
 
 

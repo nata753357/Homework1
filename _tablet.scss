@@ -1,0 +1,112 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .star2 {
+        display: none;
+    }
+
+    .top {
+        background-image: url(img/tabbigstar4.svg);
+        background-position: right 0px;
+        background-size: inherit;
+        background-color: #E1FF8F;
+
+        &__box-container {
+            padding-top: 166px;
+        }
+
+        &__title {
+            max-width: 569px;
+            text-align: center;
+        }
+    }
+
+    .littlestar2 {
+        right: 156px;
+    }
+
+    .bigstar2 {
+        right: 63px;
+    }
+
+    .top2 {
+        &__title {
+            margin-top: 64px;
+        }
+    }
+
+    .top2-box {
+        &__content {
+            flex-wrap: wrap;
+        }
+        &__column {
+            max-width: calc(50% - 28px); 
+        }
+        &__column_3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
+    .bigstar3 {
+        display: none;
+    }
+
+    .bigstar4 {
+        display: none;
+    }
+
+    .littlestar3 {
+        display: none;
+    }
+
+    .top3 {
+        height: 3100px;
+    }
+
+    .top3-box {
+
+        &__content {
+            flex-direction: row-reverse;
+            row-gap: 28px;
+        }
+        &__img {
+            width: 400px;
+        }
+        &__box-info {
+            max-width: 300px;
+        }
+        &__box-info2 {
+            max-width: 300px;
+        }
+    }
+
+    .bigstar5 {
+        display: none;
+    }
+
+    .littlestar4 {
+        display: none;
+    }
+
+    .bigstar6 {
+        display: none;
+    }
+
+    .littlestar5 {
+        display: none;
+    }
+    
+    }
+
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
