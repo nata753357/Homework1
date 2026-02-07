@@ -6,7 +6,7 @@
         
         
         if (guessInput === null) {
-            alert("Игра отменена. Загаданное число было: " + randomNumber);
+            alert("Игра отменена! Загаданное число было: " + randomNumber);
             return; 
         }
         
@@ -68,7 +68,7 @@
     }
 
      if (userAnswer === null) {
-        alert("Игра отменена");
+        alert("Игра отменена!");
         return;
      } else {
 
@@ -186,7 +186,7 @@ for (let i = 0; i < quiz.length; i++) {
 }
 
     if (isCanceled) {
-        alert("Викторина отменена.\nВы ответили правильно на " + score + " из " + quiz.length + " вопросов.");
+        alert("Викторина отменена!\nВы ответили правильно на " + score + " из " + quiz.length + " вопросов.");
     } else {
         alert(`Викторина завершена!\nВы ответили правильно на ${score} из ${quiz.length} вопросов.`);
     }
